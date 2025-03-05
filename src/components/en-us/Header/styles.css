@@ -1,0 +1,35 @@
+.language-select {
+  width: auto;
+}
+
+.language-select button {
+  border-color: var(--chakra-colors-primary);
+  color: var(--chakra-colors-primary);
+  height: 44px;
+  padding-inline: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.language-select button:hover {
+  background-color: var(--chakra-colors-primary);
+  color: var(--chakra-colors-primary-text);
+  height: 44px;
+  padding-inline: 20px;
+  cursor: pointer;
+}
+
+.language-select .chakra-select__indicator {
+  color: var(--chakra-colors-primary);
+  transition: 0.2s;
+}
+
+.language-select .chakra-select__control:hover .chakra-select__indicator {
+  color: var(--chakra-colors-primary-text);
+}
+
+.chakra-select__item[aria-selected="true"] {
+  background-color: var(--chakra-colors-primary);
+  color: var(--chakra-colors-primary-text);
+  font-weight: bold;
+}

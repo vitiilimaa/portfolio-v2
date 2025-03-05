@@ -1,0 +1,35 @@
+@keyframes pulse {
+  0% {
+    transform: scale();
+  }
+  70% {
+    transform: scale();
+    box-shadow: 0 0 0 50px rgba(255, 255, 0, 0);
+  }
+  100% {
+    transform: scale();
+    box-shadow: 0 0 0 0 rgba(255, 255, 0, 0);
+  }
+}
+
+.spin-ball {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(174.7deg);
+  }
+
+  40% {
+    transform: rotate(535deg);
+  }
+
+  60% {
+    transform: rotate(535deg);
+  }
+
+  100% {
+    transform: rotate(535deg);
+  }
+}

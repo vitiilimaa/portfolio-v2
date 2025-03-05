@@ -1,0 +1,30 @@
+.technologies-range {
+  z-index: 1;
+  rotate: 2deg;
+  padding-block: 8px;
+  border-block: 1px solid;
+  overflow: hidden;
+  user-select: none;
+  border: none;
+  display: flex;
+  
+  --gap-technologies-range: 10px;
+  gap: var(--gap-technologies-range);
+}
+
+.technologies-range ul {
+  list-style: none;
+  flex-shrink: 0;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap-technologies-range);
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-100% - var(--gap-technologies-range)));
+  }
+}

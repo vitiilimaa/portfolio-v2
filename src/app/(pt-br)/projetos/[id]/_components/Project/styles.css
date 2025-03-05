@@ -1,0 +1,30 @@
+.project-carousel-container {
+  width: 100%;
+}
+
+.project-carousel-container .react-multiple-carousel__arrow--left::before,
+.project-carousel-container .react-multiple-carousel__arrow--right::before {
+  color: var(--chakra-colors-primary);
+}
+
+.project-carousel-container .react-multiple-carousel__arrow:hover {
+  transition: 0.2s;
+  opacity: 1;
+}
+
+.project-carousel-dot-list .react-multi-carousel-dot {
+  color: var(--chakra-colors-primary);
+}
+
+.project-carousel-dot-list {
+  bottom: 20px;
+}
+
+.project-carousel-dot-list .react-multi-carousel-dot > button {
+  border-color: var(--chakra-colors-white);
+}
+
+.project-carousel-dot-list .react-multi-carousel-dot--active > button {
+  background-color: var(--chakra-colors-white);
+  border-color: var(--chakra-colors-white);
+}
