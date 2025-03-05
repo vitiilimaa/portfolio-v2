@@ -65,8 +65,6 @@ const projectsData = [
     ],
     customerTestimonial: MauricioTestimonial,
     featured: false,
-    repositoryUrl:
-      "https://github.com/vitiilimaa/mauricio-scaranto-massoterapeuta",
   },
   {
     id: 2,

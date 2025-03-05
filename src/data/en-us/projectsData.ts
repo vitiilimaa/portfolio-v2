@@ -63,8 +63,6 @@ const projectsData = [
       "PrimeFlex",
     ],
     featured: false,
-    repositoryUrl:
-      "https://github.com/vitiilimaa/mauricio-scaranto-massoterapeuta",
   },
   {
     id: 2,
