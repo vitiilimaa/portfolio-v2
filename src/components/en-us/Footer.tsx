@@ -11,7 +11,7 @@ const Footer = (props: FooterProps) => {
       as={"footer"}
       display={"flex"}
       justifyContent={"space-between"}
-      alignItems={"center"}
+      alignItems={"start"}
       bgColor={"transparent"}
       position={"absolute"}
       bottom={0}
@@ -20,13 +20,13 @@ const Footer = (props: FooterProps) => {
       minHeight={"auto"}
       pb={"40px"}
       zIndex={10}
-      flexWrap={"wrap"}
       gap={4}
       {...props}
     >
-      <Flex gap={1.5} alignSelf={"self-start"}>
+      <Flex flexWrap={"wrap"} gap={1.5}>
         <Text fontSize={"12px"}>Designed and developed by</Text>
         <Text
+          as={"span"}
           fontSize={"12px"}
           fontWeight={"semibold"}
           color={"primaryText"}

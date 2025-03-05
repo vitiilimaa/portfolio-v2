@@ -24,7 +24,7 @@ const Project = () => {
 
   if (!project) {
     return (
-      <SectionContainer pt={0} pb={"120px"}>
+      <SectionContainer pt={0} pb={"160px"}>
         <Box
           mt={"184px"}
           justifyContent={"space-between"}
@@ -48,7 +48,7 @@ const Project = () => {
   }
 
   return (
-    <SectionContainer pt={0} pb={"120px"}>
+    <SectionContainer pt={0} pb={"160px"}>
       <Flex
         mt={"184px"}
         justifyContent={"space-between"}

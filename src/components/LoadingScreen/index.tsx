@@ -30,13 +30,13 @@ const LoadingScreen = () => {
       >
         <Flex
           position={"absolute"}
-          top={0.8}
+          bottom={"23px"}
           w="220px"
           h="220px"
           animation={"pulse 2s infinite"}
           animationDelay={"0.8s"}
           boxShadow={"0 0 0 0 rgba(255, 255, 0, 0.5)"}
-          borderRadius={"6px"}
+          borderRadius={"250px"}
         />
         <Image
           src={VLogoPart}

@@ -14,8 +14,8 @@ const Projects = () => {
     useProjects();
 
   return (
-    <SectionContainer minHeight={"100%"} pt={0} pb={"120px"}>
-      <Flex mt={{ base: "150px", md: "184px" }} width={"100%"}>
+    <SectionContainer minHeight={"100%"} pt={0} pb={"160px"}>
+      <Flex mt={"184px"} width={"100%"}>
         <LargeText fontWeight={"bold"}>
           Projects
           <LargeText as={"span"} color={"primary"}>

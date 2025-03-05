@@ -28,7 +28,7 @@ const AboutMe = () => {
   } = useAboutMe();
 
   return (
-    <SectionContainer minHeight={"100%"} pt={0} pb={"120px"}>
+    <SectionContainer minHeight={"100%"} pt={0} pb={"160px"}>
       <Flex
         mt={{ base: "150px", md: "184px" }}
         justifyContent={"space-between"}
