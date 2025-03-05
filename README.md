@@ -1,9 +1,9 @@
 <h2 align="center">
-  Portfólio<br/>
+  Portfólio v2<br/>
   <a href="https://vitordesenvolvedor.com.br/" target="_blank">vitordesenvolvedor.com.br</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="/public/demo_portfolio.png" />
+  <img alt="Demo" src="/public/demo_portfolio.webp" />
 </div>
 
 ## Introdução
