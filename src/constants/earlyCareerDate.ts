@@ -1,1 +1,0 @@
-export const EARLY_CAREER_DATE = "2022-03-01"

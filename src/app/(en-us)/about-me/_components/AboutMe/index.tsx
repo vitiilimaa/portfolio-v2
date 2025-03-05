@@ -25,6 +25,7 @@ const AboutMe = () => {
     handleClickHomeButton,
     handleClickViewProjectsButton,
     experienceYears,
+    yearsOld,
   } = useAboutMe();
 
   return (
@@ -56,9 +57,10 @@ const AboutMe = () => {
             </Flex>
             <MediumText fontWeight={400} textAlign={"justify"}>
               My name is Vitor, I am{" "}
-              <MediumText as="span">{experienceYears}</MediumText> years old,
-              and I have been working as a developer for 3 years, creating
-              modern and innovative experiences. I work with several
+              <MediumText as="span">{yearsOld}</MediumText> years old, and I
+              have been working as a developer for{" "}
+              <MediumText as="span">{experienceYears}</MediumText> years,
+              creating modern and innovative experiences. I work with several
               technologies, but I highlight Next, React, and TypeScript as my
               preferences. I am always improving myself to grow in my career and
               become a better professional. My goal is to transform ideas that

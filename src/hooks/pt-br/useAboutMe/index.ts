@@ -1,5 +1,6 @@
-import { EARLY_CAREER_DATE } from "@portfolio/constants/earlyCareerDate";
-import calculateExperienceYears from "@portfolio/utils/calculateExperienceYears";
+import { BIRTHDAY_DATE, EARLY_CAREER_DATE } from "@portfolio/constants/dates";
+import calculateYearsDifference from "@portfolio/utils/calculateYearsDifference";
+
 import { useRouter } from "next/navigation";
 
 const useAboutMe = () => {
@@ -9,11 +10,14 @@ const useAboutMe = () => {
 
   const handleClickViewProjectsButton = () => router.push("/projetos");
 
-  const experienceYears = calculateExperienceYears(EARLY_CAREER_DATE);
+  const yearsOld = calculateYearsDifference(BIRTHDAY_DATE);
+
+  const experienceYears = calculateYearsDifference(EARLY_CAREER_DATE);
 
   return {
     handleClickHomeButton,
     handleClickViewProjectsButton,
+    yearsOld,
     experienceYears,
   };
 };

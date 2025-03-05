@@ -1,4 +1,4 @@
-const calculateExperienceYears = (startDate: string) => {
+const calculateYearsDifference = (startDate: string) => {
   const currentDate = new Date();
   const start = new Date(startDate);
 
@@ -16,4 +16,4 @@ const calculateExperienceYears = (startDate: string) => {
   return experienceYears;
 };
 
-export default calculateExperienceYears;
+export default calculateYearsDifference;
