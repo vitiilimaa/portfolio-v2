@@ -4,7 +4,7 @@ import {
   defineConfig,
   mergeConfigs,
 } from "@chakra-ui/react";
-import { defineAnimationStyles } from "@chakra-ui/react"
+import { defineAnimationStyles } from "@chakra-ui/react";
 
 export const semanticTokens = {
   colors: {
@@ -66,7 +66,6 @@ const breakpoints = {
   ultrawide: "1400px",
 };
 
-
 const animationStyles = defineAnimationStyles({
   bounceFadeIn: {
     value: {
@@ -76,7 +75,7 @@ const animationStyles = defineAnimationStyles({
       animationIterationCount: "infinite",
     },
   },
-})
+});
 
 const customConfig = defineConfig({
   globalCss: {
@@ -90,7 +89,7 @@ const customConfig = defineConfig({
   theme: {
     semanticTokens,
     breakpoints,
-    animationStyles
+    animationStyles,
   },
 });
 
