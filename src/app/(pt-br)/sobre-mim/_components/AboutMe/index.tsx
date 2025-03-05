@@ -30,7 +30,7 @@ const AboutMe = () => {
   return (
     <SectionContainer minHeight={"100%"} pt={0} pb={"120px"}>
       <Flex
-        mt={"184px"}
+        mt={{ base: "150px", md: "184px" }}
         justifyContent={"space-between"}
         alignItems={"start"}
         gap={"100px"}

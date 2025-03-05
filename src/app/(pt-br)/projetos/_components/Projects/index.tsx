@@ -15,7 +15,7 @@ const Projects = () => {
 
   return (
     <SectionContainer minHeight={"100%"} pt={0} pb={"120px"}>
-      <Flex mt={"184px"} width={"100%"}>
+      <Flex mt={{ base: "150px", md: "184px" }} width={"100%"}>
         <LargeText fontWeight={"bold"}>
           Projetos
           <LargeText as={"span"} color={"primary"}>
