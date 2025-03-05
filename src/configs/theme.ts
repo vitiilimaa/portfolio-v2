@@ -2,7 +2,6 @@ import {
   createSystem,
   defaultConfig,
   defineConfig,
-  mergeConfigs,
 } from "@chakra-ui/react";
 import { defineAnimationStyles } from "@chakra-ui/react";
 
@@ -93,8 +92,6 @@ const customConfig = defineConfig({
   },
 });
 
-const config = mergeConfigs(defaultConfig, customConfig);
-
-const theme = createSystem(config);
+const theme = createSystem(defaultConfig, customConfig);
 
 export default theme;
