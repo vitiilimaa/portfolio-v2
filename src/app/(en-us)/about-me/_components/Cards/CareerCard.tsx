@@ -55,7 +55,7 @@ const CareerCard = (props: CardRootProps) => {
                 flexDirection={"column"}
               >
                 <Flex
-                  flexDirection={{ base: "column", tablet: "row" }}
+                  flexDirection={{ base: "column", md: "row" }}
                   width={"100%"}
                   justifyContent={"space-between"}
                   fontSize={"12px"}
@@ -92,13 +92,13 @@ const CareerCard = (props: CardRootProps) => {
                   {career.jobDescription}
                 </Collapsible.Content>
                 <Flex
-                  flexDirection={{ base: "column", tablet: "row" }}
+                  flexDirection={{ base: "column", md: "row" }}
                   columnGap={"15px"}
                   rowGap={"8px"}
                   fontSize={"12px"}
                   fontWeight={400}
                   justifyContent={"space-between"}
-                  alignItems={{ base: "start", tablet: "end" }}
+                  alignItems={{ base: "start", md: "end" }}
                   height={"100%"}
                   textWrap={"nowrap"}
                   color={"#909090"}

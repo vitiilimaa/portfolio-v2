@@ -27,7 +27,7 @@ const CoursesCard = (props: CardRootProps) => {
             coursesData.map((course) => (
               <Flex
                 key={course.courseId}
-                width={{ base: "100%", ultrawide: "400px" }}
+                width={{ base: "100%", "2xl": "400px" }}
                 columnGap={"20px"}
                 justifyContent={"space-between"}
                 alignItems={"center"}
@@ -66,7 +66,7 @@ const CoursesCard = (props: CardRootProps) => {
                       fontWeight={400}
                       rowGap={"8px"}
                       columnGap={"15px"}
-                      flexDirection={{ base: "column", tablet: "row" }}
+                      flexDirection={{ base: "column", md: "row" }}
                     >
                       <Text>{course.courseName}</Text>
                       {course?.file && (
@@ -98,7 +98,7 @@ const CoursesCard = (props: CardRootProps) => {
                       rowGap={"8px"}
                       columnGap={"15px"}
                       flexWrap={"wrap"}
-                      flexDirection={{ base: "column", tablet: "row" }}
+                      flexDirection={{ base: "column", md: "row" }}
                     >
                       <Text color={"#909090"}>{course.companyName}</Text>
                     </Flex>

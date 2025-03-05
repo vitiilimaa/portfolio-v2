@@ -34,7 +34,7 @@ const NotFound = () => {
         zIndex={1}
         bgColor={"transparent"}
       >
-        <Text color={"primary"} fontSize={{ base: "24px", tablet: "36px" }}>
+        <Text color={"primary"} fontSize={{ base: "24px", md: "36px" }}>
           404
         </Text>
         <LargeText mt={"20px"} fontWeight={"bold"} color="secondaryText">

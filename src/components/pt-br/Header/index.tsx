@@ -89,7 +89,7 @@ const Header = () => {
           alignItems={"center"}
           gap={"72px"}
           listStyle="none"
-          display={{ base: "none", wide: "flex" }}
+          display={{ base: "none", xl: "flex" }}
         >
           <ListItem route="/inicio">Início</ListItem>
           <ListItem route="/sobre-mim">Sobre mim</ListItem>
@@ -101,7 +101,7 @@ const Header = () => {
       <Flex
         alignItems={"center"}
         gap={4}
-        display={{ base: "none", tablet: "flex" }}
+        display={{ base: "none", md: "flex" }}
       >
         <SolidButton as="a" href={"/curriculo.pdf"} target={"_blank"}>
           Visualizar CV <MdNorthEast size={16} />
@@ -112,15 +112,15 @@ const Header = () => {
           value={language}
           onValueChange={handleChangeSelectLanguageValue}
         />
-        <ColorModeButton display={{ base: "none", wide: "flex" }} />
+        <ColorModeButton display={{ base: "none", xl: "flex" }} />
       </Flex>
 
       <Flex
         alignItems={"center"}
         gap={4}
-        display={{ base: "flex", wide: "none" }}
+        display={{ base: "flex", xl: "none" }}
       >
-        <ColorModeButton display={{ base: "flex", wide: "none" }} />
+        <ColorModeButton display={{ base: "flex", xl: "none" }} />
         <MobileMenu
           language={language}
           handleChangeSelectLanguageValue={handleChangeSelectLanguageValue}
@@ -188,7 +188,7 @@ const MobileMenu = (props: MobileMenu) => {
       <DrawerBackdrop />
       <SolidButton
         onClick={handleOpenDrawerButton}
-        display={{ base: "flex", wide: "none" }}
+        display={{ base: "flex", xl: "none" }}
         px={0}
       >
         <RiMenu3Line />
@@ -233,7 +233,7 @@ const MobileMenu = (props: MobileMenu) => {
               justifyContent={"center"}
               alignItems={"center"}
               gap={4}
-              display={{ base: "flex", tablet: "none" }}
+              display={{ base: "flex", md: "none" }}
               flexWrap={"wrap"}
             >
               <SolidButton as="a" href={"/curriculo.pdf"} target={"_blank"}>

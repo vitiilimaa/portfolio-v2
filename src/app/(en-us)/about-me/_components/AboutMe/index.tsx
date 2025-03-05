@@ -37,8 +37,8 @@ const AboutMe = () => {
         columnGap={"100px"}
       >
         <Box
-          minWidth={{ base: "auto", tablet: "510px" }}
-          width={{ base: "100%", tablet: "1020px" }}
+          minWidth={{ base: "auto", md: "510px" }}
+          width={{ base: "100%", md: "1020px" }}
         >
           <Flex rowGap={"40px"} fontWeight={"bold"} flexWrap={"wrap"}>
             <Flex
@@ -71,9 +71,9 @@ const AboutMe = () => {
             mt={"40px"}
             flexDirection={"row"}
             flexWrap={"wrap"}
-            gap={{ base: 5, wide: 0 }}
+            gap={{ base: 5, xl: 0 }}
             width={"100%"}
-            display={{ base: "flex", desktop: "none" }}
+            display={{ base: "flex", lg: "none" }}
             justifyContent={"center"}
           >
             <Box flex={1} minWidth={"250px"} maxWidth={"250px"}>
@@ -86,7 +86,7 @@ const AboutMe = () => {
             <Flex
               flex={1}
               minWidth={"235px"}
-              mt={{ base: 0, wide: 5 }}
+              mt={{ base: 0, xl: 5 }}
               flexDirection={"column"}
               rowGap={5}
             >
@@ -125,7 +125,7 @@ const AboutMe = () => {
             width={"100%"}
             maxWidth={"1020px"}
             mt={"40px"}
-            flexWrap={{ base: "wrap", ultrawide: "nowrap" }}
+            flexWrap={{ base: "wrap", "2xl": "nowrap" }}
           >
             <CareerCard />
 
@@ -167,8 +167,8 @@ const AboutMe = () => {
           flexDirection={"column"}
           justifyContent={"space-between"}
           flexWrap={"wrap"}
-          gap={{ base: 5, wide: 0 }}
-          display={{ base: "none", desktop: "flex" }}
+          gap={{ base: 5, xl: 0 }}
+          display={{ base: "none", lg: "flex" }}
         >
           <Box width={"100%"}>
             <Image
@@ -178,8 +178,8 @@ const AboutMe = () => {
             />
           </Box>
           <Flex
-            width={{ base: "100%", wide: "auto" }}
-            mt={{ base: 0, wide: 5 }}
+            width={{ base: "100%", xl: "auto" }}
+            mt={{ base: 0, xl: 5 }}
             flexDirection={"column"}
             rowGap={5}
           >

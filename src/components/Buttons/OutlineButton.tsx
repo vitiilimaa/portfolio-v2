@@ -1,8 +1,4 @@
-import {
-  Button,
-  ButtonProps,
-  LinkProps,
-} from "@chakra-ui/react";
+import { Button, ButtonProps, LinkProps } from "@chakra-ui/react";
 import { ReactNode } from "react";
 
 type OutlineButtonProps = ButtonProps &
@@ -17,15 +13,15 @@ const OutlineButton = (props: OutlineButtonProps) => {
   const fontSize = activeDefaultBreakpoints
     ? {
         base: "12px",
-        mobile: "14px",
-        tablet: "16px",
-        desktop: "18px",
+        sm: "14px",
+        md: "16px",
+        lg: "18px",
       }
     : "18px";
 
   const buttonSize = (
     activeDefaultBreakpoints
-      ? { base: "xs", mobile: "sm", tablet: "md", desktop: "lg" }
+      ? { base: "xs", sm: "sm", md: "md", lg: "lg" }
       : "lg"
   ) as ButtonProps["size"];
 

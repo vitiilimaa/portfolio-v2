@@ -30,7 +30,7 @@ const ContactSection = () => {
           flexWrap={"wrap"}
           alignItems={"center"}
           justifyContent={"center"}
-          columnGap={{ base: 2, mobile: 3 }}
+          columnGap={{ base: 2, sm: 3 }}
         >
           <ExtraLargeText textAlign={"center"}>
             Let&apos;s create something amazing
@@ -46,21 +46,21 @@ const ContactSection = () => {
           justifyContent={"center"}
           gap={4}
           position={"relative"}
-          display={{ base: "none", tablet: "flex" }}
+          display={{ base: "none", md: "flex" }}
         >
           <OutlineButton
             as={"a"}
             href={
               "https://api.whatsapp.com/send/?phone=55991525363&text=Hi!+How+are+you?+I+saw+your+portfolio+and+I+am+interested+in+hiring+your+services.&type=phone_number&app_absent=0"
             }
-            minWidth={{ base: "180px", mobile: "220px", tablet: "auto" }}
+            minWidth={{ base: "180px", sm: "220px", md: "auto" }}
           >
             Call on WhatsApp <MdNorthEast />
           </OutlineButton>
           <OutlineButton
             as={"a"}
             href={"mailto:vitiilimaa@gmail.com"}
-            minWidth={{ base: "180px", mobile: "220px", tablet: "auto" }}
+            minWidth={{ base: "180px", sm: "220px", md: "auto" }}
           >
             Send an email <MdNorthEast />
           </OutlineButton>
@@ -71,16 +71,12 @@ const ContactSection = () => {
           justifyContent={"center"}
           gap={4}
           position={"relative"}
-          display={{ base: "flex", tablet: "none" }}
+          display={{ base: "flex", md: "none" }}
         >
-          <OutlineButton
-            minWidth={{ base: "180px", mobile: "220px", tablet: "auto" }}
-          >
+          <OutlineButton minWidth={{ base: "180px", sm: "220px", md: "auto" }}>
             WhatsApp <MdNorthEast />
           </OutlineButton>
-          <OutlineButton
-            minWidth={{ base: "180px", mobile: "220px", tablet: "auto" }}
-          >
+          <OutlineButton minWidth={{ base: "180px", sm: "220px", md: "auto" }}>
             Email <MdNorthEast />
           </OutlineButton>
         </Flex>

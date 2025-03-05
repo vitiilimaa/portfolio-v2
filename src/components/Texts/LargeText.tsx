@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { Text, TextProps } from "@chakra-ui/react";
 import { ReactNode } from "react";
@@ -11,7 +11,7 @@ const LargeText = (props: LargeText) => {
 
   return (
     <Text
-      fontSize={{ base: "32px", mobile: "36px", tablet: "42px", wide: "48px" }}
+      fontSize={{ base: "32px", sm: "36px", md: "42px", xl: "48px" }}
       {...textProps}
     >
       {children}

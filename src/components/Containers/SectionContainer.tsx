@@ -11,7 +11,7 @@ const SectionContainer = (props: SectionContainerProps) => {
 
   return (
     <Box
-      px={{ base: "2rem", tablet: "4rem" }}
+      px={{ base: "2rem", md: "4rem" }}
       bg={"primaryBackground"}
       width={"100%"}
       maxWidth={"1440px"}

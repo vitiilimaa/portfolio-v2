@@ -30,7 +30,7 @@ const ContactSection = () => {
           flexWrap={"wrap"}
           alignItems={"center"}
           justifyContent={"center"}
-          columnGap={{ base: 2, mobile: 3 }}
+          columnGap={{ base: 2, sm: 3 }}
         >
           <ExtraLargeText textAlign={"center"}>
             Vamos criar algo incrível
@@ -46,16 +46,12 @@ const ContactSection = () => {
           justifyContent={"center"}
           gap={4}
           position={"relative"}
-          display={{ base: "none", tablet: "flex" }}
+          display={{ base: "none", md: "flex" }}
         >
-          <OutlineButton
-            minWidth={{ base: "180px", mobile: "220px", tablet: "auto" }}
-          >
+          <OutlineButton minWidth={{ base: "180px", sm: "220px", md: "auto" }}>
             Chamar no WhatsApp <MdNorthEast />
           </OutlineButton>
-          <OutlineButton
-            minWidth={{ base: "180px", mobile: "220px", tablet: "auto" }}
-          >
+          <OutlineButton minWidth={{ base: "180px", sm: "220px", md: "auto" }}>
             Enviar um e-mail <MdNorthEast />
           </OutlineButton>
         </Flex>
@@ -65,21 +61,21 @@ const ContactSection = () => {
           justifyContent={"center"}
           gap={4}
           position={"relative"}
-          display={{ base: "flex", tablet: "none" }}
+          display={{ base: "flex", md: "none" }}
         >
           <OutlineButton
             as={"a"}
             href={
               "https://api.whatsapp.com/send/?phone=55991525363&text=Opa!+Tudo+bem%3F+Vi+o+seu+portfolio+e+estou+interessado(a)+em+contratar+o+seu+servi%C3%A7o.&type=phone_number&app_absent=0"
             }
-            minWidth={{ base: "180px", mobile: "220px", tablet: "auto" }}
+            minWidth={{ base: "180px", sm: "220px", md: "auto" }}
           >
             WhatsApp <MdNorthEast />
           </OutlineButton>
           <OutlineButton
             as={"a"}
             href={"mailto:vitiilimaa@gmail.com"}
-            minWidth={{ base: "180px", mobile: "220px", tablet: "auto" }}
+            minWidth={{ base: "180px", sm: "220px", md: "auto" }}
           >
             E-mail <MdNorthEast />
           </OutlineButton>

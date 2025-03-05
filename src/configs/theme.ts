@@ -1,8 +1,4 @@
-import {
-  createSystem,
-  defaultConfig,
-  defineConfig,
-} from "@chakra-ui/react";
+import { createSystem, defaultConfig, defineConfig } from "@chakra-ui/react";
 import { defineAnimationStyles } from "@chakra-ui/react";
 
 export const semanticTokens = {
@@ -58,11 +54,11 @@ export const semanticTokens = {
 };
 
 const breakpoints = {
-  mobile: "380px",
-  tablet: "768px",
-  desktop: "1024px",
-  wide: "1200px",
-  ultrawide: "1400px",
+  sm: "380px",
+  md: "768px",
+  lg: "1024px",
+  xl: "1200px",
+  "2xl": "1400px",
 };
 
 const animationStyles = defineAnimationStyles({

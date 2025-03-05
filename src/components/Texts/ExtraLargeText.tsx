@@ -15,9 +15,9 @@ const ExtraLargeText = forwardRef<HTMLDivElement, ExtraLargeText>(
         ref={ref}
         fontSize={{
           base: "32px",
-          mobile: "36px",
-          tablet: "42px",
-          wide: "64px",
+          sm: "36px",
+          md: "42px",
+          xl: "64px",
         }}
         {...textProps}
       >

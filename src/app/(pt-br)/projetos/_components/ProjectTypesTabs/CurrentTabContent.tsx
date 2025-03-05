@@ -45,7 +45,7 @@ const CurrentTabContent = (props: CurrentTabContentProps) => {
               justifyContent={"center"}
               width={"100%"}
               gap={8}
-              padding={{ base: "20px", tablet: "40px" }}
+              padding={{ base: "20px", md: "40px" }}
             >
               <Box width={"450px"}>
                 <Box width={"100%"} rounded={"md"} overflow={"hidden"} flex={1}>

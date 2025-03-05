@@ -29,7 +29,7 @@ const ProjectsSection = () => {
       >
         <Flex
           width={"100%"}
-          columnGap={{ base: 2, mobile: 3 }}
+          columnGap={{ base: 2, sm: 3 }}
           fontWeight={"bold"}
           flexWrap={"wrap"}
         >
@@ -55,7 +55,7 @@ const ProjectsSection = () => {
               justifyContent={"center"}
               width={"100%"}
               gap={8}
-              padding={{ base: "20px", tablet: "40px" }}
+              padding={{ base: "20px", md: "40px" }}
               overflow={"auto"}
             >
               <Box width={"450px"}>

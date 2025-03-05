@@ -111,12 +111,10 @@ const Project = () => {
             <Flex
               flexDirection={"column"}
               alignItems={"center"}
-              display={{ base: "flex", ultrawide: "none" }}
+              display={{ base: "flex", "2xl": "none" }}
             >
               {project?.projectImages && project.projectImages.length > 0 && (
-                <Box
-                  width={{ base: "250px", mobile: "320px", tablet: "600px" }}
-                >
+                <Box width={{ base: "250px", sm: "320px", md: "600px" }}>
                   <Carousel
                     additionalTransfrom={0}
                     arrows
@@ -133,21 +131,21 @@ const Project = () => {
                     renderButtonGroupOutside={false}
                     renderDotsOutside={false}
                     responsive={{
-                      desktop: {
+                      lg: {
                         breakpoint: {
                           max: 3000,
                           min: 1024,
                         },
                         items: 1,
                       },
-                      mobile: {
+                      sm: {
                         breakpoint: {
                           max: 464,
                           min: 0,
                         },
                         items: 1,
                       },
-                      tablet: {
+                      md: {
                         breakpoint: {
                           max: 1024,
                           min: 464,
@@ -257,10 +255,10 @@ const Project = () => {
         <Flex
           flexDirection={"column"}
           alignItems={"center"}
-          display={{ base: "none", ultrawide: "flex" }}
+          display={{ base: "none", "2xl": "flex" }}
         >
           {project?.projectImages && project.projectImages.length > 0 && (
-            <Box width={{ base: "250px", mobile: "320px", tablet: "600px" }}>
+            <Box width={{ base: "250px", sm: "320px", md: "600px" }}>
               <Carousel
                 additionalTransfrom={0}
                 arrows
@@ -277,21 +275,21 @@ const Project = () => {
                 renderButtonGroupOutside={false}
                 renderDotsOutside={false}
                 responsive={{
-                  desktop: {
+                  lg: {
                     breakpoint: {
                       max: 3000,
                       min: 1024,
                     },
                     items: 1,
                   },
-                  mobile: {
+                  sm: {
                     breakpoint: {
                       max: 464,
                       min: 0,
                     },
                     items: 1,
                   },
-                  tablet: {
+                  md: {
                     breakpoint: {
                       max: 1024,
                       min: 464,

@@ -37,7 +37,7 @@ const ResumeAboutMe = () => {
         <Flex gap={2}>
           <Text
             opacity={0}
-            fontSize={{ base: "20px", mobile: "30px", tablet: "36px" }}
+            fontSize={{ base: "20px", sm: "30px", md: "36px" }}
             data-state="open"
             _open={{
               animation:
@@ -48,7 +48,7 @@ const ResumeAboutMe = () => {
           </Text>
           <Text
             opacity={0}
-            fontSize={{ base: "20px", mobile: "30px", tablet: "36px" }}
+            fontSize={{ base: "20px", sm: "30px", md: "36px" }}
             data-state="open"
             _open={{
               animation: "slide-from-top, fade-in",
@@ -110,7 +110,7 @@ const ResumeAboutMe = () => {
             >
               <ExtraLargeText
                 position="absolute"
-                px={{ base: "8px", mobile: "16px" }}
+                px={{ base: "8px", sm: "16px" }}
                 fontWeight={"bold"}
                 color="primaryText"
                 width={textWidth}
@@ -122,7 +122,7 @@ const ResumeAboutMe = () => {
               ref={outerTextRef}
               position="relative"
               opacity={0}
-              px={{ base: "8px", mobile: "16px" }}
+              px={{ base: "8px", sm: "16px" }}
               fontWeight={"bold"}
               color="primary"
               data-state="open"

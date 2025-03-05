@@ -8,7 +8,7 @@ const MediumText = (props: MediumText) => {
   const { children, ...textProps } = props;
 
   return (
-    <Text fontSize={{ base: "16px", tablet: "20px", wide: "24px" }} {...textProps}>
+    <Text fontSize={{ base: "16px", md: "20px", xl: "24px" }} {...textProps}>
       {children}
     </Text>
   );
