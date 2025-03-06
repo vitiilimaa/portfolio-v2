@@ -50,7 +50,7 @@ const Project = () => {
   return (
     <SectionContainer pt={0} pb={"160px"}>
       <Flex
-        mt={"184px"}
+        mt={{ base: "150px", md: "184px" }}
         justifyContent={"space-between"}
         alignItems={"start"}
         gap={"100px"}
