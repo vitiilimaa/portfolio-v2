@@ -168,7 +168,7 @@ const ResumeAboutMe = () => {
               animationDelay: "2500ms",
             }}
           >
-            Get to know me
+            Learn more
           </OutlineButton>
           <SocialMediaIcons
             opacity={0}
