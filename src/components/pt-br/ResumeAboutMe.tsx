@@ -115,7 +115,12 @@ const ResumeAboutMe = () => {
                 color="primaryText"
                 width={textWidth}
               >
-                Desenvolvedor Front-End
+                <Text as="span" display={{ base: "none", sm: "block" }}>
+                  Desenvolvedor Front-End
+                </Text>
+                <Text as="span" display={{ base: "block", sm: "none" }}>
+                  Dev Frontend
+                </Text>
               </ExtraLargeText>
             </MotionBox>
             <ExtraLargeText
@@ -134,7 +139,12 @@ const ResumeAboutMe = () => {
                 animationDelay: "1500ms",
               }}
             >
-              Desenvolvedor Front-End
+              <Text as="span" display={{ base: "none", sm: "block" }}>
+                Desenvolvedor Front-End
+              </Text>
+              <Text as="span" display={{ base: "block", sm: "none" }}>
+                Dev Frontend
+              </Text>
             </ExtraLargeText>
           </Flex>
         </Flex>
@@ -155,7 +165,7 @@ const ResumeAboutMe = () => {
           Transformo ideias impactantes em linhas de código, criando soluções
           que fazem a diferença na vida das pessoas.
         </MediumText>
-        <Flex mt={"50px"} alignItems={"center"} gap={"30px"} flexWrap={"wrap"}>
+        <Flex mt={"30px"} alignItems={"center"} gap={"30px"} flexWrap={"wrap"}>
           <OutlineButton
             opacity={0}
             onClick={handleClickFindOutMoreButton}
