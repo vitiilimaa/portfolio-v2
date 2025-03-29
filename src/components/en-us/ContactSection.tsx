@@ -50,6 +50,7 @@ const ContactSection = () => {
         >
           <OutlineButton
             as={"a"}
+            target={"_blank"}
             href={
               "https://api.whatsapp.com/send/?phone=55991525363&text=Hi!+How+are+you?+I+saw+your+portfolio+and+I+am+interested+in+hiring+your+services.&type=phone_number&app_absent=0"
             }
@@ -59,6 +60,7 @@ const ContactSection = () => {
           </OutlineButton>
           <OutlineButton
             as={"a"}
+            target={"_blank"}
             href={"mailto:vitiilimaa@gmail.com"}
             minWidth={{ base: "180px", sm: "220px", md: "auto" }}
           >
@@ -73,10 +75,22 @@ const ContactSection = () => {
           position={"relative"}
           display={{ base: "flex", md: "none" }}
         >
-          <OutlineButton minWidth={{ base: "180px", sm: "220px", md: "auto" }}>
+          <OutlineButton
+            as={"a"}
+            target={"_blank"}
+            href={
+              "https://api.whatsapp.com/send/?phone=55991525363&text=Hi!+How+are+you?+I+saw+your+portfolio+and+I+am+interested+in+hiring+your+services.&type=phone_number&app_absent=0"
+            }
+            minWidth={{ base: "180px", sm: "220px", md: "auto" }}
+          >
             WhatsApp <MdNorthEast />
           </OutlineButton>
-          <OutlineButton minWidth={{ base: "180px", sm: "220px", md: "auto" }}>
+          <OutlineButton
+            as={"a"}
+            target={"_blank"}
+            href={"mailto:vitiilimaa@gmail.com"}
+            minWidth={{ base: "180px", sm: "220px", md: "auto" }}
+          >
             Email <MdNorthEast />
           </OutlineButton>
         </Flex>

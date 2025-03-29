@@ -48,10 +48,21 @@ const ContactSection = () => {
           position={"relative"}
           display={{ base: "none", md: "flex" }}
         >
-          <OutlineButton minWidth={{ base: "180px", sm: "220px", md: "auto" }}>
+          <OutlineButton
+            as={"a"}
+            target={"_blank"}
+            href={
+              "https://api.whatsapp.com/send/?phone=55991525363&text=Opa!+Tudo+bem%3F+Vi+o+seu+portfolio+e+estou+interessado(a)+em+contratar+o+seu+servi%C3%A7o.&type=phone_number&app_absent=0"
+            }
+            minWidth={{ base: "180px", sm: "220px", md: "auto" }}
+          >
             Chamar no WhatsApp <MdNorthEast />
           </OutlineButton>
-          <OutlineButton minWidth={{ base: "180px", sm: "220px", md: "auto" }}>
+          <OutlineButton
+            as={"a"}
+            href={"mailto:vitiilimaa@gmail.com"}
+            minWidth={{ base: "180px", sm: "220px", md: "auto" }}
+          >
             Enviar um e-mail <MdNorthEast />
           </OutlineButton>
         </Flex>
@@ -65,6 +76,7 @@ const ContactSection = () => {
         >
           <OutlineButton
             as={"a"}
+            target={"_blank"}
             href={
               "https://api.whatsapp.com/send/?phone=55991525363&text=Opa!+Tudo+bem%3F+Vi+o+seu+portfolio+e+estou+interessado(a)+em+contratar+o+seu+servi%C3%A7o.&type=phone_number&app_absent=0"
             }
