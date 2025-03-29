@@ -8,7 +8,7 @@
 
 ## Introdução
 
-Segunda versão do meu portfólio. Inicialmente, foi realizado um protótipo no Figma, em que a minha ideia era trazer uma interface moderna e tecnológica, com navegação dinâmica e intuitiva, além de possibilidade de mudança de idioma.
+Segunda versão do meu portfólio. Inicialmente, foi realizado um protótipo no Figma, em que a minha ideia era trazer uma interface moderna e tecnológica, com navegação dinâmica e intuitiva, além de possibilidade de mudança de idioma. O modo de cores (dark e light) foi pensado em lembrar as 2 tecnologias que mais trabalho, o JavaScript (dark) e o TypeScript (light).
 
 ## Tecnologias
 
