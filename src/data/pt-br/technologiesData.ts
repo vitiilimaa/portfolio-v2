@@ -1,5 +1,5 @@
 import { BiLogoTypescript } from "react-icons/bi";
-import { DiMsqlServer } from "react-icons/di";
+import { DiMsqlServer, DiMysql } from "react-icons/di";
 import {
   FaBootstrap,
   FaCss3,
@@ -30,6 +30,7 @@ const technologiesData = [
   { name: "Lua", Icon: SiLua },
   { name: "Sass", Icon: FaSass },
   { name: "Git", Icon: FaGitAlt },
+  { name: "MySQL", Icon: DiMysql },
   { name: "SQL Server", Icon: DiMsqlServer },
   { name: "PostgreSQL", Icon: SiPostgresql },
   { name: "Node.js", Icon: SiNodedotjs },

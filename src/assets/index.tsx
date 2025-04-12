@@ -5,7 +5,6 @@ import OnebitcodeLogo from "@portfolio/assets/img/logos/onebitcode_logo.svg";
 import UdemyLogo from "@portfolio/assets/img/logos/udemy_logo.svg";
 import BloodHuntsGamingLogo from "@portfolio/assets/img/logos/bloodhunts_gaming_logo.webp";
 import MauricioScarantoLogo from "@portfolio/assets/img/logos/mauricio_scaranto_logo.webp";
-import GameViewerLogo from "@portfolio/assets/img/logos/game_viewer_logo.svg";
 import GestorEstoqueLogo from "@portfolio/assets/img/logos/gestor_estoque_logo.svg";
 import VitorDarkLogo from "@portfolio/assets/img/logos/vitor_dark_logo.svg";
 import VitorLightLogo from "@portfolio/assets/img/logos/vitor_light_logo.svg";
@@ -21,9 +20,6 @@ import MauricioMassageTherapist2 from "@portfolio/assets/img/mauricio_massage_th
 import MauricioMassageTherapist3 from "@portfolio/assets/img/mauricio_massage_therapist_3.webp";
 import DavidTestimonial from "@portfolio/assets/img/david_testimonial.webp";
 import MauricioTestimonial from "@portfolio/assets/img/mauricio_testimonial.webp";
-import GameViewer from "@portfolio/assets/img/game_viewer.webp";
-import GameViewer2 from "@portfolio/assets/img/game_viewer_2.webp";
-import GameViewer3 from "@portfolio/assets/img/game_viewer_3.webp";
 import GestorEstoque from "@portfolio/assets/img/gestor_estoque.webp";
 import GestorEstoque2 from "@portfolio/assets/img/gestor_estoque_2.webp";
 
@@ -42,14 +38,10 @@ export {
   OnebitcodeLogo,
   UdemyLogo,
   DavidTestimonial,
-  GameViewer,
-  GameViewer2,
-  GameViewer3,
   GestorEstoque,
   GestorEstoque2,
   BloodHuntsGamingLogo,
   MauricioScarantoLogo,
-  GameViewerLogo,
   GestorEstoqueLogo,
   VitorDarkLogo,
   VitorLightLogo,

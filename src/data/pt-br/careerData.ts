@@ -3,13 +3,18 @@ import { TechliseLogo, AvmbLogo } from "@portfolio/assets";
 const careerData = [
   {
     careerId: 0,
-    companyLogo: TechliseLogo,
-    position: "Desenvolvedor Front-End Trainee",
-    companyName: "Techlise Soluções em TI",
-    workPeriod: "Ago 2024 - atual",
-    jobDescription: `Desenvolvi telas para uma plataforma de gestão financeira de granja de suínos, utilizando Next.js e Chakra UI, implementando formulários, imagens com posicionamento absoluto, listagens com funcionalidades de CRUD, entre outras. Trabalhei na criação do componente de quadro Kanban utilizando dndkit, além de outros componentes, como tabelas simples e expansivas, sempre seguindo o protótipo do Figma.
+    companyLogo: AvmbLogo,
+    position: "Estágio em Desenvolvimento Web",
+    companyName: "AVMB - Soluções em TI",
+    workPeriod: "Mar 2022 - Dez 2023",
+    jobDescription: `Atuei na manutenção de portais e na criação de menus, utilizando a ferramenta de modelagem de processos da empresa. Fui responsável por treinar novos estagiários e desenvolver uma metodologia de treinamento, que incluía vídeoaulas rápidas e objetivas, além de exercícios que incentivavam a reflexão e a pesquisa de soluções, ensinando-os a utilizar a ferramenta de modelagem e reduzindo significativamente o tempo de aprendizado.
 
-Desenvolvi também um app de chamadas utilizando o protocolo WebRTC e Socket para permitir a comunicação entre dois dispositivos. Para o envio de notificações sobre quem está recebendo a ligação, integrei a API do OneSignal, tornando essa funcionalidade possível.`,
+Além disso, auxiliei no desenvolvimento de um aplicativo mobile que buscava trazer, de forma simplificada e ágil, as principais funcionalidades de uma plataforma já existente na web.
+
+Foi nesse ambiente que aprendi minhas primeiras tecnologias: Delphi 7, HTML, CSS, JavaScript, jQuery, Pure CSS, React, React Native, Lua, PostgreSQL e DB2.
+
+Aqui foi onde minha trajetória como programador iniciou, mesmo sem conhecimento prévio em programação, mas com um grande desafio: entregar resultados em menos de 3 meses. Após 1 ano, alcancei o nível máximo de estágio.`,
+    logoStyle: { width: 32, height: 32 },
   },
   {
     careerId: 1,
@@ -25,18 +30,21 @@ Durante o desenvolvimento, para realizar a criação de um usuário de forma rá
   },
   {
     careerId: 2,
-    companyLogo: AvmbLogo,
-    position: "Estágio em Desenvolvimento Web",
-    companyName: "AVMB - Soluções em TI",
-    workPeriod: "Mar 2022 - Dez 2023",
-    jobDescription: `Atuei na manutenção de portais e na criação de menus, utilizando a ferramenta de modelagem de processos da empresa. Fui responsável por treinar novos estagiários e desenvolver uma metodologia de treinamento, que incluía vídeoaulas rápidas e objetivas, além de exercícios que incentivavam a reflexão e a pesquisa de soluções, ensinando-os a utilizar a ferramenta de modelagem e reduzindo significativamente o tempo de aprendizado.
+    companyLogo: TechliseLogo,
+    position: "Desenvolvedor Front-End Trainee",
+    companyName: "Techlise Soluções em TI",
+    workPeriod: "Ago 2024 - Fev 2025",
+    jobDescription: `Desenvolvi telas para uma plataforma de gestão financeira de granja de suínos, utilizando Next.js e Chakra UI, implementando formulários, imagens com posicionamento absoluto, listagens com funcionalidades de CRUD, entre outras. Trabalhei na criação do componente de quadro Kanban utilizando dndkit, além de outros componentes, como tabelas simples e expansivas, sempre seguindo o protótipo do Figma.
 
-Além disso, auxiliei no desenvolvimento de um aplicativo mobile que buscava trazer, de forma simplificada e ágil, as principais funcionalidades de uma plataforma já existente na web.
-
-Foi nesse ambiente que aprendi minhas primeiras tecnologias: Delphi 7, HTML, CSS, JavaScript, jQuery, Pure CSS, React, React Native, Lua, PostgreSQL e DB2.
-
-Aqui foi onde minha trajetória como programador iniciou, mesmo sem conhecimento prévio em programação, mas com um grande desafio: entregar resultados em menos de 3 meses. Após 1 ano, alcancei o nível máximo de estágio.`,
-    logoStyle: { width: 32, height: 32 },
+Desenvolvi também um app de chamadas utilizando o protocolo WebRTC e Socket para permitir a comunicação entre dois dispositivos. Para o envio de notificações sobre quem está recebendo a ligação, integrei a API do OneSignal, tornando essa funcionalidade possível.`,
+  },
+  {
+    careerId: 3,
+    companyLogo: TechliseLogo,
+    position: "Desenvolvedor Web Júnior",
+    companyName: "Techlise Soluções em TI",
+    workPeriod: "Mar 2025 - atual",
+    jobDescription: `Desenvolvi um sistema web para impressão de etiquetas no formato DataMatrix, atuando tanto no back-end, utilizando Node.js com Awilix para injeção de dependências, Sequelize como ORM, Redis para cache, modelando o banco de dados, criando a estrutura da API, aplicando migrations, entre outras tarefas, quanto no front-end, com Next.js e Chakra UI, desenvolvendo as telas previamente desenhadas no Figma e integrando a API.`,
   },
 ];
 

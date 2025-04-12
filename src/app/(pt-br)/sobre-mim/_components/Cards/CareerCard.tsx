@@ -22,7 +22,7 @@ const CareerCard = (props: CardRootProps) => {
         </Card.Title>
 
         {careerData &&
-          careerData.map((career) => (
+          careerData.toReversed().map((career) => (
             <Collapsible.Root
               display={"flex"}
               justifyContent={"space-between"}

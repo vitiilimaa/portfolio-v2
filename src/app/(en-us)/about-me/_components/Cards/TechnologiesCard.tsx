@@ -4,7 +4,7 @@ import { Card, CardRootProps, Flex } from "@chakra-ui/react";
 import { MdOutlineMonitor } from "react-icons/md";
 
 import { Tooltip } from "@portfolio/components/ui/tooltip";
-import technologiesData from "@portfolio/data/pt-br/technologiesData";
+import technologiesData from "@portfolio/data/en-us/technologiesData";
 
 const TechnologiesCard = (props: CardRootProps) => {
   return (

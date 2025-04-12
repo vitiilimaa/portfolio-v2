@@ -5,9 +5,6 @@ import {
   BloodhuntsGaming4,
   BloodHuntsGamingLogo,
   DavidTestimonial,
-  GameViewer,
-  GameViewer2,
-  GameViewer3,
   GestorEstoque,
   GestorEstoque2,
   MauricioMassageTherapist,
@@ -66,20 +63,6 @@ const projectsData = [
   },
   {
     id: 2,
-    projectName: "GameViewer",
-    projectResumeDescription:
-      "Personal project developed to showcase the best games of all time.",
-    projectDescription:
-      "Personal project developed to showcase the best games of all time, with the goal of implementing a carousel without using external libraries, including the drag-and-drop functionality so that the admin user can reorder the display of games in each category. Additionally, the admin can add, remove, and edit games, modify their descriptions, as well as create, delete, and rename categories. To simulate the API, I used the json-server library, which allows creating a mock admin user and enabling login and logout on the platform.",
-    projectImages: [GameViewer, GameViewer2, GameViewer3],
-    category: "Personal",
-    technologies: ["React", "React Router DOM", "Bootstrap", "Axios", "Vite"],
-    featured: false,
-    pageUrl: "https://game-viewer-three.vercel.app",
-    repositoryUrl: "https://github.com/vitiilimaa/gameViewer",
-  },
-  {
-    id: 3,
     projectName: "Inventory Manager",
     projectResumeDescription:
       "Personal project developed to enhance inventory management.",

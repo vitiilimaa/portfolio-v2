@@ -78,7 +78,14 @@ const AboutMe = () => {
             display={{ base: "flex", lg: "none" }}
             justifyContent={"center"}
           >
-            <Box flex={1} minWidth={"250px"} maxWidth={"250px"}>
+            <Box
+              flex={1}
+              minWidth={"250px"}
+              maxWidth={"250px"}
+              borderRadius={"8px"}
+              overflow={"hidden"}
+              bgColor={"primary"}
+            >
               <Image
                 src={VitorPhoto}
                 alt="vitor_photo"
@@ -172,11 +179,16 @@ const AboutMe = () => {
           gap={{ base: 5, xl: 0 }}
           display={{ base: "none", lg: "flex" }}
         >
-          <Box width={"100%"}>
+          <Box
+            width={"100%"}
+            borderRadius={"8px"}
+            overflow={"hidden"}
+            bgColor={"primary"}
+          >
             <Image
               src={VitorPhoto}
               alt="vitor_photo"
-              style={{ width: "100%", objectFit: "contain" }}
+              style={{ width: "100%", objectFit: "cover" }}
             />
           </Box>
           <Flex

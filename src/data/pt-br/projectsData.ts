@@ -5,9 +5,6 @@ import {
   BloodhuntsGaming4,
   BloodHuntsGamingLogo,
   DavidTestimonial,
-  GameViewer,
-  GameViewer2,
-  GameViewer3,
   GestorEstoque,
   GestorEstoque2,
   MauricioMassageTherapist,
@@ -42,7 +39,7 @@ const projectsData = [
     ],
     customerTestimonial: DavidTestimonial,
     featured: true,
-    pageUrl: "https://www.bloodhuntsgaming.com.br/",
+    // pageUrl: "https://www.bloodhuntsgaming.com.br/",
   },
   {
     id: 1,
@@ -64,24 +61,11 @@ const projectsData = [
       "PrimeFlex",
     ],
     customerTestimonial: MauricioTestimonial,
+    // pageUrl: "https://www.mauricioscaranto.com.br/",
     featured: false,
   },
   {
     id: 2,
-    projectName: "GameViewer",
-    projectResumeDescription:
-      "Projeto pessoal desenvolvido para a visualização dos melhores jogos de todos os tempos.",
-    projectDescription:
-      "Projeto pessoal desenvolvido para a visualização dos melhores jogos de todos os tempos, com o objetivo de implementar um carrossel sem o uso de bibliotecas, incluindo a funcionalidade de arrastar e soltar para que o usuário administrador possa reordenar a exibição dos jogos em cada categoria. Além disso, o administrador pode adicionar, remover e editar jogos, modificar suas descrições, bem como criar, excluir e renomear categorias. Para simular a API, utilizei a biblioteca json-server, permitindo a criação de um usuário administrador mockado, além de possibilitar login e logout na plataforma.",
-    projectImages: [GameViewer, GameViewer2, GameViewer3],
-    category: "Pessoal",
-    technologies: ["React", "React Router DOM", "Bootstrap", "Axios", "Vite"],
-    featured: false,
-    pageUrl: "https://game-viewer-three.vercel.app",
-    repositoryUrl: "https://github.com/vitiilimaa/gameViewer",
-  },
-  {
-    id: 3,
     projectName: "Gestor de Estoque",
     projectResumeDescription:
       "Projeto pessoal desenvolvido para aprimorar a gestão de estoque.",
