@@ -44,3 +44,63 @@
     rotate: 0deg;
   }
 }
+
+@keyframes appearWithScroll {
+  from {
+    opacity: 0;
+    transform: translateY(-22vh);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(-3vh);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideRightWithScroll {
+  from {
+    opacity: 0;
+    transform: translateX(-50vw);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.appear-with-scroll-animation {
+  animation: appearWithScroll linear;
+  animation-timeline: view();
+  animation-range: cover 0% cover 50%;
+}
+
+.appear-animation {
+  animation: appear 1s;
+}
+
+.slide-right-with-scroll-animation {
+  animation: slideRightWithScroll linear;
+  animation-timeline: view();
+  animation-range: cover 0% cover 13%;
+}
+
+@media (min-width: 768px) {
+  .slide-right-with-scroll-animation {
+    animation: slideRightWithScroll linear;
+    animation-timeline: view();
+    animation-range: cover 0% cover 25%;
+  }
+}

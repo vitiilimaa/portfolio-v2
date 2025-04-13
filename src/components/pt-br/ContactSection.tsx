@@ -1,3 +1,5 @@
+"use client";
+
 import { Flex } from "@chakra-ui/react";
 
 import { MdNorthEast } from "react-icons/md";
@@ -6,7 +8,15 @@ import { SectionContainer } from "@portfolio/components/Containers";
 import { OutlineButton } from "../Buttons";
 import ExtraLargeText from "../Texts/ExtraLargeText";
 
+import { usePathname } from "next/navigation";
+
 const ContactSection = () => {
+  const pathname = usePathname();
+
+  const titleAnimation = pathname.includes("/inicio")
+    ? "appear-with-scroll-animation"
+    : "appear-animation";
+
   return (
     <SectionContainer
       bg={"transparent"}
@@ -24,6 +34,7 @@ const ContactSection = () => {
         gap={4}
       >
         <Flex
+          className={titleAnimation}
           fontWeight={"bold"}
           fontSize={"64px"}
           width={"100%"}

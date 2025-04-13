@@ -28,6 +28,7 @@ const ProjectsSection = () => {
         height={"100vh"}
       >
         <Flex
+          className="appear-with-scroll-animation"
           width={"100%"}
           columnGap={{ base: 2, sm: 3 }}
           fontWeight={"bold"}
@@ -140,7 +141,10 @@ const ProjectsSection = () => {
           </Card.Root>
         </Flex>
 
-        <Flex justifyContent={"end"}>
+        <Flex
+          className="slide-right-with-scroll-animation"
+          justifyContent={"end"}
+        >
           <SolidButton onClick={handleClickButtonSeeMoreProjects}>
             See more projects <MdEast />
           </SolidButton>
