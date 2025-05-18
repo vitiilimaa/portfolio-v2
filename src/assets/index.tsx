@@ -22,6 +22,7 @@ import DavidTestimonial from "@portfolio/assets/img/david_testimonial.webp";
 import MauricioTestimonial from "@portfolio/assets/img/mauricio_testimonial.webp";
 import GestorEstoque from "@portfolio/assets/img/gestor_estoque.webp";
 import GestorEstoque2 from "@portfolio/assets/img/gestor_estoque_2.webp";
+import AvatarInsta from "@portfolio/assets/img/avatar_insta.webp"
 
 export {
   VitorPhoto,
@@ -47,4 +48,5 @@ export {
   VitorLightLogo,
   VLogoPart,
   MauricioTestimonial,
+  AvatarInsta
 };

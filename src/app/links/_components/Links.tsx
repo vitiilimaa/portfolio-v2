@@ -1,0 +1,132 @@
+"use client";
+
+import Image from "next/image";
+import { AvatarInsta } from "@portfolio/assets";
+import { GeneralContainer } from "@portfolio/components/Containers";
+import { ButtonProps, Flex } from "@chakra-ui/react";
+import { ReactNode } from "react";
+import { AiOutlineGlobal } from "react-icons/ai";
+import { MdAttachMoney } from "react-icons/md";
+import {
+  // FaComputer
+  FaInstagram,
+} from "react-icons/fa6";
+import { OutlineButton } from "@portfolio/components/Buttons";
+import { SocialMediaIcons } from "@portfolio/components/SocialMediaIcons";
+
+const Links = () => {
+  return (
+    <GeneralContainer
+      width={"100%"}
+      minHeight={"100vh"}
+      alignItems={"center"}
+      justifyContent={"center"}
+      px={"2rem"}
+      gap={"2rem"}
+      maxWidth={"500px"}
+    >
+      <Image
+        width={150}
+        height={150}
+        suppressHydrationWarning
+        src={AvatarInsta}
+        alt={"vitor_logo"}
+        style={{
+          borderRadius: "150px",
+          border: "2px solid var(--chakra-colors-primary)",
+        }}
+      />
+      <SocialMediaIcons
+        gap={"10px"}
+        iconContainerWidth={"30px"}
+        iconSize={18}
+      />
+      <Flex mt={"1rem"} flexDir={"column"} gap={"1rem"} width={"100%"}>
+        <LinkButton link={"https://www.vitordesenvolvedor.com.br/"}>
+          <AiOutlineGlobal
+            fill="var(--chakra-colors-primary)"
+            style={{
+              borderRadius: "6px",
+              backgroundColor: "var(--chakra-colors-primary-background)",
+              padding: 5,
+              width: 35,
+              height: 35,
+            }}
+          />
+          Confira o meu portfólio
+        </LinkButton>
+        <LinkButton
+          link={
+            "https://api.whatsapp.com/send/?phone=55991525363&text=Opa%21+Tudo+bem%3F+Vim+do+instagram+e+estou+interessado%28a%29+em+contratar+o+seu+servi%C3%A7o.&type=phone_number&app_absent=0"
+          }
+        >
+          <MdAttachMoney
+            fill="var(--chakra-colors-primary)"
+            style={{
+              borderRadius: "6px",
+              backgroundColor: "var(--chakra-colors-primary-background)",
+              padding: 5,
+              width: 35,
+              height: 35,
+            }}
+          />
+          Solicite um orçamento
+        </LinkButton>
+        {/* <LinkButton link={""}>
+          <FaComputer
+            fill="var(--chakra-colors-primary)"
+            style={{
+              borderRadius: "6px",
+              backgroundColor: "var(--chakra-colors-primary-background)",
+              padding: 5,
+              width: 35,
+              height: 35,
+            }}
+          />
+          Setup
+        </LinkButton> */}
+        <LinkButton link={"https://www.instagram.com/vitordesenvolvedor/"}>
+          <FaInstagram
+            fill="var(--chakra-colors-primary)"
+            style={{
+              borderRadius: "6px",
+              borderColor: "var(--chakra-colors-primary)",
+              backgroundColor: "var(--chakra-colors-primary-background)",
+              padding: 5,
+              width: 35,
+              height: 35,
+            }}
+          />
+          Conheça o meu insta
+        </LinkButton>
+      </Flex>
+    </GeneralContainer>
+  );
+};
+
+type LinkButtonType = ButtonProps & {
+  children: ReactNode;
+  link: string;
+};
+const LinkButton = (props: LinkButtonType) => {
+  const { children, link } = props;
+
+  return (
+    <OutlineButton
+      as={"a"}
+      href={link}
+      target="_blank"
+      columnGap={"1.5rem"}
+      py={{ base: "1rem", sm: "auto" }}
+      justifyContent={{ base: "center", sm: "start" }}
+      height={{ base: "auto", sm: "initial" }}
+      width={"100%"}
+      flexWrap={{ base: "wrap", sm: "nowrap" }}
+      size={"2xl"}
+    >
+      {children}
+    </OutlineButton>
+  );
+};
+
+export default Links;
