@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { AvatarInsta } from "@portfolio/assets";
 import { GeneralContainer } from "@portfolio/components/Containers";
-import { ButtonProps, Flex } from "@chakra-ui/react";
+import { Box, ButtonProps, Flex, Text } from "@chakra-ui/react";
 import { ReactNode } from "react";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { MdAttachMoney } from "react-icons/md";
@@ -13,6 +13,7 @@ import {
 } from "react-icons/fa6";
 import { OutlineButton } from "@portfolio/components/Buttons";
 import { SocialMediaIcons } from "@portfolio/components/SocialMediaIcons";
+import MediumText from "@portfolio/components/Texts/MediumText";
 
 const Links = () => {
   return (
@@ -22,7 +23,7 @@ const Links = () => {
       alignItems={"center"}
       justifyContent={"center"}
       px={"2rem"}
-      gap={"2rem"}
+      gap={"1rem"}
       maxWidth={"500px"}
     >
       <Image
@@ -36,12 +37,17 @@ const Links = () => {
           border: "2px solid var(--chakra-colors-primary)",
         }}
       />
+
+      <Box textAlign={"center"}>
+        <MediumText fontWeight={600}>Vitor Batista</MediumText>
+        <Text fontSize={"14px"} opacity={0.5}>Desenvolvedor Front-End</Text>
+      </Box>
       <SocialMediaIcons
         gap={"10px"}
         iconContainerWidth={"30px"}
         iconSize={18}
       />
-      <Flex mt={"1rem"} flexDir={"column"} gap={"1rem"} width={"100%"}>
+      <Flex mt={"2rem"} flexDir={"column"} gap={"1rem"} width={"100%"}>
         <LinkButton link={"https://www.vitordesenvolvedor.com.br/"}>
           <AiOutlineGlobal
             fill="var(--chakra-colors-primary)"
