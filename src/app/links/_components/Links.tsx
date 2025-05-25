@@ -8,8 +8,10 @@ import { ReactNode } from "react";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { MdAttachMoney } from "react-icons/md";
 import {
+  FaHeadphones,
   // FaComputer
   FaInstagram,
+  FaMicrophone,
 } from "react-icons/fa6";
 import { OutlineButton } from "@portfolio/components/Buttons";
 import { SocialMediaIcons } from "@portfolio/components/SocialMediaIcons";
@@ -40,14 +42,42 @@ const Links = () => {
 
       <Box textAlign={"center"}>
         <MediumText fontWeight={600}>Vitor Batista</MediumText>
-        <Text fontSize={"14px"} opacity={0.5}>Desenvolvedor Front-End</Text>
+        <Text fontSize={"14px"} opacity={0.5}>
+          Desenvolvedor Front-End
+        </Text>
       </Box>
       <SocialMediaIcons
         gap={"10px"}
         iconContainerWidth={"30px"}
         iconSize={18}
       />
-      <Flex mt={"2rem"} flexDir={"column"} gap={"1rem"} width={"100%"}>
+      <Flex mt={"1rem"} flexDir={"column"} gap={"1rem"} width={"100%"}>
+        <LinkButton link={"https://amzn.to/43v609P"}>
+          <FaMicrophone
+            fill="var(--chakra-colors-primary)"
+            style={{
+              borderRadius: "6px",
+              backgroundColor: "var(--chakra-colors-primary-background)",
+              padding: 5,
+              width: 35,
+              height: 35,
+            }}
+          />
+          MAONO PD100X
+        </LinkButton>
+        <LinkButton link={"https://amzn.to/4ky5jDr"}>
+          <FaHeadphones
+            fill="var(--chakra-colors-primary)"
+            style={{
+              borderRadius: "6px",
+              backgroundColor: "var(--chakra-colors-primary-background)",
+              padding: 5,
+              width: 35,
+              height: 35,
+            }}
+          />
+          W800BT PRO EDIFIER
+        </LinkButton>
         <LinkButton link={"https://www.vitordesenvolvedor.com.br/"}>
           <AiOutlineGlobal
             fill="var(--chakra-colors-primary)"
@@ -129,6 +159,7 @@ const LinkButton = (props: LinkButtonType) => {
       width={"100%"}
       flexWrap={{ base: "wrap", sm: "nowrap" }}
       size={"2xl"}
+      textWrap={"wrap"}
     >
       {children}
     </OutlineButton>
