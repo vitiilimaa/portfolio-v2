@@ -24,7 +24,7 @@ const Links = () => {
       minHeight={"100vh"}
       alignItems={"center"}
       justifyContent={"center"}
-      px={"2rem"}
+      p={"2rem"}
       gap={"1rem"}
       maxWidth={"500px"}
     >
