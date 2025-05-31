@@ -122,7 +122,7 @@ const AboutMe = () => {
                 <FaWhatsapp />
                 <Text>Message on WhatsApp</Text>
               </SocialMedia>
-              <SocialMedia url={"mailto:vitiilimaa@gmail.com"}>
+              <SocialMedia url={"mailto:contato@vitordesenvolvedor.com.br"}>
                 <MdMailOutline />
                 <Text>Send Email</Text>
               </SocialMedia>
@@ -220,7 +220,7 @@ const AboutMe = () => {
               <FaWhatsapp />
               <Text>Message on WhatsApp</Text>
             </SocialMedia>
-            <SocialMedia url={"mailto:vitiilimaa@gmail.com"}>
+            <SocialMedia url={"mailto:contato@vitordesenvolvedor.com.br"}>
               <MdMailOutline />
               <Text>Send Email</Text>
             </SocialMedia>

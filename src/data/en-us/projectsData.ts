@@ -10,15 +10,63 @@ import {
   MauricioMassageTherapist,
   MauricioMassageTherapist2,
   MauricioMassageTherapist3,
+  MauricioTestimonial,
+  ILGComexLogo,
+  ILGComex,
+  ILGComex2,
+  ILGComex3,
+  ILGComex4,
+  ILGComex5,
+  ILGComexTestimonial,
 } from "@portfolio/assets";
 
 const projectsData = [
   {
     id: 0,
+    projectName: "Inventory Manager",
+    projectResumeDescription:
+      "Personal project developed to improve inventory management.",
+    projectDescription:
+      "A personal project developed to enhance inventory management using localStorage. In the Inventory Manager, the user has access to an initial dashboard that displays information about item diversity, total inventory, recent items, and low-stock items. The items screen presents a complete listing of all items registered in the system. Users can add, edit, or remove items, and the data persists even when closing and reopening the browser. However, if the user clears the browser data, the information stored in localStorage will be lost.",
+    projectImages: [GestorEstoque, GestorEstoque2],
+    category: "Personal",
+    technologies: ["React", "React Router DOM", "Vite", "localStorage"],
+    featured: false,
+    pageUrl: "https://gestao-de-estoque-three.vercel.app",
+    repositoryUrl: "https://github.com/vitiilimaa/gestao-de-estoque",
+  },
+  {
+    id: 1,
+    projectName: "Maurício Scaranto",
+    projectResumeDescription:
+      "Website prototyped and developed for massage therapist Maurício Scaranto.",
+    projectDescription: `Website prototyped and developed for massage therapist Maurício Scaranto, featuring a modern, responsive, and interactive design. The platform includes strategically placed call-to-action buttons and dedicated sections for introducing Maurício, showcasing his services, highlighting the courses he teaches, and a contact form so potential clients can reach out via email.`,
+    projectImages: [
+      MauricioMassageTherapist,
+      MauricioMassageTherapist2,
+      MauricioMassageTherapist3,
+    ],
+    category: "Freelance",
+    technologies: [
+      "React",
+      "Next",
+      "TypeScript",
+      "React Hook Form",
+      "PrimeReact",
+      "PrimeFlex",
+    ],
+    customerTestimonialImg: MauricioTestimonial,
+    pageUrl: "https://www.mauricioscaranto.com.br/",
+    testimonialText: `I loved working with Vitor. He will definitely get many recommendations! Only prosperity!`,
+    authorTestimonial: "Maurício Scaranto",
+    featured: false,
+  },
+  {
+    id: 2,
     projectName: "BloodHunts Gaming",
     projectResumeDescription:
       "Website developed for the e-sports team BloodHunts Gaming.",
-    projectDescription: `Website developed for the e-sports team BloodHunts Gaming. Built to be responsive and interactive, the site features a modern and functional interface. The platform includes features such as 3D carousels and expandable image galleries, as well as sections about the team's history, important announcements, staff, and the option to sign up for the newsletter. The site offers dynamic functionalities such as language switching and displaying Instagram content. User interactions are tracked through analytics.`,
+    projectDescription: `Website developed for the e-sports team BloodHunts Gaming. Designed to be responsive and interactive, the site features a modern and functional interface. The platform includes 3D carousels and expandable images, as well as sections about the team’s history, important announcements, staff, and an option to subscribe to the newsletter. The site offers dynamic features like language switching and Instagram content display. User interactions are tracked using analytics.`,
     projectImageFeatured: BloodHuntsGamingLogo,
     projectImages: [
       BloodhuntsGaming,
@@ -36,45 +84,35 @@ const projectsData = [
       "Node.js",
       "Vercel Analytics",
     ],
-    customerTestimonial: DavidTestimonial,
-    featured: true,
+    customerTestimonialImg: DavidTestimonial,
+    testimonialText: `He has a lot of creativity, which is extremely important for a front-end developer. I also highlight his organization in the code, structure, and package organization, making it easy for someone with programming knowledge to make changes as desired.`,
+    authorTestimonial: "David Alexandre, CEO of Bloodhunts Gaming",
     pageUrl: "https://www.bloodhuntsgaming.com.br/",
   },
   {
-    id: 1,
-    projectName: "Maurício Scaranto",
+    id: 3,
+    projectName: "ILG Comex",
     projectResumeDescription:
-      "Prototyped and developed website for the massage therapist Maurício Scaranto.",
-    projectDescription: `Prototyped and developed website for massage therapist Maurício Scaranto, with a modern, responsive, and interactive design. The platform features strategic call-to-action buttons and sections dedicated to presenting Maurício, the services offered, the courses he teaches, and a contact form allowing potential clients to reach out directly by email.`,
-    projectImages: [
-      MauricioMassageTherapist,
-      MauricioMassageTherapist2,
-      MauricioMassageTherapist3,
-    ],
+      "Website developed for ILG Comex, a company specializing in international air shipping and comprehensive export advisory services.",
+    projectDescription: `Website developed for ILG Comex, a company specializing in international air shipping and comprehensive export advisory services. Designed to be responsive, each section was strategically positioned to engage users browsing the site, featuring dynamic animations to support that goal. It also includes a Tracking section, where users can track products according to the logistics partners used by ILG Comex. Additionally, the site integrates with Bitrix, enabling dynamic and intuitive CRM interactions.`,
+    projectImageFeatured: ILGComexLogo,
+    projectImages: [ILGComex, ILGComex2, ILGComex3, ILGComex4, ILGComex5],
     category: "Freelance",
     technologies: [
       "React",
+      "Next",
       "TypeScript",
-      "React Hook Form",
-      "PrimeReact",
-      "PrimeFlex",
+      "Chakra UI",
+      "Bitrix",
+      "vis.gl React Google Maps",
+      "React Multi Carousel",
     ],
-    featured: false,
-  },
-  {
-    id: 2,
-    projectName: "Inventory Manager",
-    projectResumeDescription:
-      "Personal project developed to enhance inventory management.",
-    projectDescription:
-      "Personal project developed to enhance inventory management, with the goal of working with data stored in localStorage. In the Inventory Manager, the user is presented with a dashboard that shows information about item diversity, total inventory, recent items, and low-stock items. The items screen displays a complete list of all items registered in the system. The user can add, edit, or remove items, and the information is preserved even after closing and reopening the browser. However, if the user clears the browser data, the information stored in localStorage will be lost.",
-    projectImages: [GestorEstoque, GestorEstoque2],
-    category: "Personal",
-    technologies: ["React", "React Router DOM", "Vite", "localStorage"],
-    featured: false,
-    pageUrl: "https://gestao-de-estoque-three.vercel.app",
-    repositoryUrl: "https://github.com/vitiilimaa/gestao-de-estoque",
+    customerTestimonialImg: ILGComexTestimonial,
+    testimonialText: `What impressed me most was his focus on site performance and user experience. He really cared about making everything fast and easy to use, even considering Google rankings! Communication was always excellent, very responsive, respected all deadlines, and even created an easy way for us to follow the project on Trello.`,
+    authorTestimonial: "Iluska Lopes, Executive Director of ILG Comex",
+    featured: true,
+    pageUrl: "https://www.ilgcomex.com",
   },
 ];
 
-export default projectsData;
+export default projectsData.toReversed();

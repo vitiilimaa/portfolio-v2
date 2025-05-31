@@ -1,5 +1,5 @@
 "use client";
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Blockquote, Box, Flex, Text } from "@chakra-ui/react";
 
 import Carousel from "react-multi-carousel";
 
@@ -118,6 +118,7 @@ const Project = () => {
                   <Carousel
                     additionalTransfrom={0}
                     arrows
+                    autoPlay
                     autoPlaySpeed={3000}
                     containerClass="project-carousel-container"
                     dotListClass="project-carousel-dot-list"
@@ -222,7 +223,7 @@ const Project = () => {
               {project?.projectDescription}
             </MediumText>
 
-            {project && project.customerTestimonial && (
+            {project && project.customerTestimonialImg && (
               <Box alignSelf={"self-start"}>
                 <Text
                   mb={"20px"}
@@ -232,17 +233,23 @@ const Project = () => {
                 >
                   Customer Testimonial
                 </Text>
-                <Box
-                  border={"1px solid"}
-                  borderColor={"primary"}
-                  borderRadius={"6px"}
-                  overflow={"hidden"}
-                >
-                  <Image
-                    src={project.customerTestimonial as StaticImageData}
-                    alt={"customer_testimonial"}
-                  />
-                </Box>
+                <Image
+                  src={project.customerTestimonialImg as StaticImageData}
+                  alt={"customer_testimonial"}
+                  style={{
+                    border: "1px solid var(--chakra-colors-primary)",
+                    borderRadius: 6,
+                  }}
+                />
+
+                <Blockquote.Root mt={"1rem"}>
+                  <Blockquote.Content cite="Uzumaki Naruto">
+                    &quot;{project.testimonialText}&quot;
+                  </Blockquote.Content>
+                  <Blockquote.Caption>
+                    — <cite>{project.authorTestimonial}</cite>
+                  </Blockquote.Caption>
+                </Blockquote.Root>
               </Box>
             )}
           </Flex>

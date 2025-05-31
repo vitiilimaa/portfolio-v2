@@ -11,11 +11,58 @@ import {
   MauricioMassageTherapist2,
   MauricioMassageTherapist3,
   MauricioTestimonial,
+  ILGComexLogo,
+  ILGComex,
+  ILGComex2,
+  ILGComex3,
+  ILGComex4,
+  ILGComex5,
+  ILGComexTestimonial,
 } from "@portfolio/assets";
 
 const projectsData = [
   {
     id: 0,
+    projectName: "Gestor de Estoque",
+    projectResumeDescription:
+      "Projeto pessoal desenvolvido para aprimorar a gestão de estoque.",
+    projectDescription:
+      "Projeto pessoal desenvolvido para aprimorar a gestão de estoque, com o objetivo de trabalhar com dados no localStorage. No Gestor de Estoque, o usuário conta com um painel inicial que exibe informações sobre a diversidade de itens, inventário total, itens recentes e itens em baixa. A tela de itens apresenta uma listagem completa de todos os itens cadastrados no sistema. O usuário pode cadastrar, editar ou remover itens, e as informações são preservadas mesmo ao fechar e reabrir o navegador. No entanto, se o usuário limpar os dados do navegador, as informações armazenadas no localStorage serão perdidas.",
+    projectImages: [GestorEstoque, GestorEstoque2],
+    category: "Pessoal",
+    technologies: ["React", "React Router DOM", "Vite", "localStorage"],
+    featured: false,
+    pageUrl: "https://gestao-de-estoque-three.vercel.app",
+    repositoryUrl: "https://github.com/vitiilimaa/gestao-de-estoque",
+  },
+  {
+    id: 1,
+    projectName: "Maurício Scaranto",
+    projectResumeDescription:
+      "Site prototipado e desenvolvido para o massoterapeuta Maurício Scaranto.",
+    projectDescription: `Site prototipado e desenvolvido para o massoterapeuta Maurício Scaranto, com um design moderno, responsivo e interativo. A plataforma conta com botões call-to-action estratégicos e seções dedicadas à apresentação do Maurício, aos serviços oferecidos, aos cursos que leciona e a um formulário de contato, permitindo que possíveis clientes entrem em contato diretamente por e-mail.`,
+    projectImages: [
+      MauricioMassageTherapist,
+      MauricioMassageTherapist2,
+      MauricioMassageTherapist3,
+    ],
+    category: "Freelance",
+    technologies: [
+      "React",
+      "Next",
+      "TypeScript",
+      "React Hook Form",
+      "PrimeReact",
+      "PrimeFlex",
+    ],
+    customerTestimonialImg: MauricioTestimonial,
+    pageUrl: "https://www.mauricioscaranto.com.br/",
+    testimonialText: `Adorei trabalhar com o Vitor. Com certeza terá muitas indicações! Só prosperidade!`,
+    authorTestimonial: "Maurício Scaranto",
+    featured: false,
+  },
+  {
+    id: 2,
     projectName: "BloodHunts Gaming",
     projectResumeDescription:
       "Site desenvolvido para a equipe de e-sports BloodHunts Gaming.",
@@ -37,47 +84,36 @@ const projectsData = [
       "Node.js",
       "Vercel Analytics",
     ],
-    customerTestimonial: DavidTestimonial,
-    featured: true,
-    // pageUrl: "https://www.bloodhuntsgaming.com.br/",
+    customerTestimonialImg: DavidTestimonial,
+    testimonialText: `Tem muita criatividade, algo que é de extrema importância para um desenvolvedor front-end. Destaco também a sua organização no código, na estrutura e organização de pacotes para que caso algum usuário com conhecimento (em programação) possa facilmente mudar algo que desejar.`,
+    authorTestimonial: "David Alexandre, CEO da Bloodhunts Gaming",
+    pageUrl: "https://www.bloodhuntsgaming.com.br/",
   },
   {
-    id: 1,
-    projectName: "Maurício Scaranto",
+    id: 3,
+    projectName: "ILG Comex",
     projectResumeDescription:
-      "Site prototipado e desenvolvido para o massoterapeuta Maurício Scaranto.",
-    projectDescription: `Site prototipado e desenvolvido para o massoterapeuta Maurício Scaranto, com um design moderno, responsivo e interativo. A plataforma conta com botões call-to-action estratégicos e seções dedicadas à apresentação do Maurício, aos serviços oferecidos, aos cursos que leciona e a um formulário de contato, permitindo que possíveis clientes entrem em contato diretamente por e-mail.`,
-    projectImages: [
-      MauricioMassageTherapist,
-      MauricioMassageTherapist2,
-      MauricioMassageTherapist3,
-    ],
+      "Site desenvolvido para a empresa ILG Comex, responsável por oferecer serviços especializados em envios aéreos internacionais e assessoria completa para exportações.",
+    projectDescription: `Site desenvolvido para a empresa ILG Comex, responsável por oferecer serviços especializados em envios aéreos internacionais e assessoria completa para exportações. Desenvolvido para ser responsivo, cada seção foi posicionada de forma estratégica a fim de engajar o usuário que está acessando o site, além de ter animações dinâmicas para manter esta ideia possível. Continuamente, existe a seção de Rastreamento, onde é possível rastrear produtos de acordo com as transportadoras parceiras da ILG Comex.
+Além disso, possui integração com a Bitrix, possibilitando interação com o CRM de forma dinâmica e intuitiva.`,
+    projectImageFeatured: ILGComexLogo,
+    projectImages: [ILGComex, ILGComex2, ILGComex3, ILGComex4, ILGComex5],
     category: "Freelance",
     technologies: [
       "React",
+      "Next",
       "TypeScript",
-      "React Hook Form",
-      "PrimeReact",
-      "PrimeFlex",
+      "Chakra UI",
+      "Bitrix",
+      "vis.gl React Google Maps",
+      "React Multi Carousel",
     ],
-    customerTestimonial: MauricioTestimonial,
-    // pageUrl: "https://www.mauricioscaranto.com.br/",
-    featured: false,
-  },
-  {
-    id: 2,
-    projectName: "Gestor de Estoque",
-    projectResumeDescription:
-      "Projeto pessoal desenvolvido para aprimorar a gestão de estoque.",
-    projectDescription:
-      "Projeto pessoal desenvolvido para aprimorar a gestão de estoque, com o objetivo de trabalhar com dados no localStorage. No Gestor de Estoque, o usuário conta com um painel inicial que exibe informações sobre a diversidade de itens, inventário total, itens recentes e itens em baixa. A tela de itens apresenta uma listagem completa de todos os itens cadastrados no sistema. O usuário pode cadastrar, editar ou remover itens, e as informações são preservadas mesmo ao fechar e reabrir o navegador. No entanto, se o usuário limpar os dados do navegador, as informações armazenadas no localStorage serão perdidas.",
-    projectImages: [GestorEstoque, GestorEstoque2],
-    category: "Pessoal",
-    technologies: ["React", "React Router DOM", "Vite", "localStorage"],
-    featured: false,
-    pageUrl: "https://gestao-de-estoque-three.vercel.app",
-    repositoryUrl: "https://github.com/vitiilimaa/gestao-de-estoque",
+    customerTestimonialImg: ILGComexTestimonial,
+    testimonialText: `O que mais me impressionou foi a preocupação dele com o desempenho do site e a experiência do usuário. Ele realmente se ligou em deixar tudo rápido e fácil de usar, pensando até no Google! A comunicação com ele foi sempre ótima, super solícito, respeitou todos os prazos e ainda criou um jeito fácil da gente acompanhar o projeto pelo Trello.`,
+    authorTestimonial: "Iluska Lopes, Diretora Executiva da ILG Comex",
+    featured: true,
+    pageUrl: "https://www.ilgcomex.com",
   },
 ];
 
-export default projectsData;
+export default projectsData.toReversed();

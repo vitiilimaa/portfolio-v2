@@ -71,7 +71,7 @@ const ContactSection = () => {
           <OutlineButton
             as={"a"}
             target={"_blank"}
-            href={"mailto:vitiilimaa@gmail.com"}
+            href={"mailto:contato@vitordesenvolvedor.com.br"}
             minWidth={{ base: "180px", sm: "220px", md: "auto" }}
           >
             Send an email <MdNorthEast />
@@ -98,7 +98,7 @@ const ContactSection = () => {
           <OutlineButton
             as={"a"}
             target={"_blank"}
-            href={"mailto:vitiilimaa@gmail.com"}
+            href={"mailto:contato@vitordesenvolvedor.com.br"}
             minWidth={{ base: "180px", sm: "220px", md: "auto" }}
           >
             Email <MdNorthEast />
