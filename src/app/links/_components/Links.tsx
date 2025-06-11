@@ -9,6 +9,7 @@ import { AiOutlineGlobal } from "react-icons/ai";
 import { MdAttachMoney } from "react-icons/md";
 import {
   FaHeadphones,
+  FaHeart,
   // FaComputer
   FaInstagram,
   FaMicrophone,
@@ -52,6 +53,19 @@ const Links = () => {
         iconSize={18}
       />
       <Flex mt={"1rem"} flexDir={"column"} gap={"1rem"} width={"100%"}>
+        <LinkButton link={"https://surpresaparavoce.fly.dev/"}>
+          <FaHeart
+            fill="var(--chakra-colors-primary)"
+            style={{
+              borderRadius: "6px",
+              backgroundColor: "var(--chakra-colors-primary-background)",
+              padding: 5,
+              width: 35,
+              height: 35,
+            }}
+          />
+          SURPRESA DIA DOS NAMORADOS (TEMPORÁRIO)
+        </LinkButton>
         <LinkButton link={"https://amzn.to/43v609P"}>
           <FaMicrophone
             fill="var(--chakra-colors-primary)"
