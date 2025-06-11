@@ -17,6 +17,7 @@ import {
 import { OutlineButton } from "@portfolio/components/Buttons";
 import { SocialMediaIcons } from "@portfolio/components/SocialMediaIcons";
 import MediumText from "@portfolio/components/Texts/MediumText";
+import { QRCodeSVG } from "qrcode.react";
 
 const Links = () => {
   return (
@@ -149,6 +150,11 @@ const Links = () => {
           />
           Conheça o meu insta
         </LinkButton>
+
+        <Flex alignItems={"center"} gap={"0.8rem"}>
+          <QRCodeSVG value="00020126580014br.gov.bcb.pix0136d3df1888-b814-46d0-9fd6-31b2294202cf5204000053039865802BR5925VITOR HUGO BATISTA DE LIM6009Sao Paulo62290525REC6848CF2C7590403226580663047697" />
+          <Text>Pague o meu café 😃</Text>
+        </Flex>
       </Flex>
     </GeneralContainer>
   );
