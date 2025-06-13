@@ -9,15 +9,13 @@ import { AiOutlineGlobal } from "react-icons/ai";
 import { MdAttachMoney } from "react-icons/md";
 import {
   FaHeadphones,
-  FaHeart,
-  // FaComputer
   FaInstagram,
   FaMicrophone,
 } from "react-icons/fa6";
 import { OutlineButton } from "@portfolio/components/Buttons";
 import { SocialMediaIcons } from "@portfolio/components/SocialMediaIcons";
 import MediumText from "@portfolio/components/Texts/MediumText";
-import { QRCodeSVG } from "qrcode.react";
+// import { QRCodeSVG } from "qrcode.react";
 
 const Links = () => {
   return (
@@ -54,19 +52,6 @@ const Links = () => {
         iconSize={18}
       />
       <Flex mt={"1rem"} flexDir={"column"} gap={"1rem"} width={"100%"}>
-        <LinkButton link={"https://surpresaparavoce.fly.dev/"}>
-          <FaHeart
-            fill="var(--chakra-colors-primary)"
-            style={{
-              borderRadius: "6px",
-              backgroundColor: "var(--chakra-colors-primary-background)",
-              padding: 5,
-              width: 35,
-              height: 35,
-            }}
-          />
-          SURPRESA DIA DOS NAMORADOS (TEMPORÁRIO)
-        </LinkButton>
         <LinkButton link={"https://amzn.to/43v609P"}>
           <FaMicrophone
             fill="var(--chakra-colors-primary)"
@@ -123,19 +108,6 @@ const Links = () => {
           />
           Solicite um orçamento
         </LinkButton>
-        {/* <LinkButton link={""}>
-          <FaComputer
-            fill="var(--chakra-colors-primary)"
-            style={{
-              borderRadius: "6px",
-              backgroundColor: "var(--chakra-colors-primary-background)",
-              padding: 5,
-              width: 35,
-              height: 35,
-            }}
-          />
-          Setup
-        </LinkButton> */}
         <LinkButton link={"https://www.instagram.com/vitordesenvolvedor/"}>
           <FaInstagram
             fill="var(--chakra-colors-primary)"
@@ -151,10 +123,10 @@ const Links = () => {
           Conheça o meu insta
         </LinkButton>
 
-        <Flex alignItems={"center"} gap={"0.8rem"}>
+        {/* <Flex alignItems={"center"} gap={"0.8rem"}>
           <QRCodeSVG value="00020126580014br.gov.bcb.pix0136d3df1888-b814-46d0-9fd6-31b2294202cf5204000053039865802BR5925VITOR HUGO BATISTA DE LIM6009Sao Paulo62290525REC6848CF2C7590403226580663047697" />
           <Text>Pague o meu café 😃</Text>
-        </Flex>
+        </Flex> */}
       </Flex>
     </GeneralContainer>
   );
