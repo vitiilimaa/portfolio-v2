@@ -7,11 +7,7 @@ import { Box, ButtonProps, Flex, Text } from "@chakra-ui/react";
 import { ReactNode } from "react";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { MdAttachMoney } from "react-icons/md";
-import {
-  FaHeadphones,
-  FaInstagram,
-  FaMicrophone,
-} from "react-icons/fa6";
+import { FaHeadphones, FaMicrophone } from "react-icons/fa6";
 import { OutlineButton } from "@portfolio/components/Buttons";
 import { SocialMediaIcons } from "@portfolio/components/SocialMediaIcons";
 import MediumText from "@portfolio/components/Texts/MediumText";
@@ -52,32 +48,6 @@ const Links = () => {
         iconSize={18}
       />
       <Flex mt={"1rem"} flexDir={"column"} gap={"1rem"} width={"100%"}>
-        <LinkButton link={"https://amzn.to/43v609P"}>
-          <FaMicrophone
-            fill="var(--chakra-colors-primary)"
-            style={{
-              borderRadius: "6px",
-              backgroundColor: "var(--chakra-colors-primary-background)",
-              padding: 5,
-              width: 35,
-              height: 35,
-            }}
-          />
-          MAONO PD100X
-        </LinkButton>
-        <LinkButton link={"https://amzn.to/4ky5jDr"}>
-          <FaHeadphones
-            fill="var(--chakra-colors-primary)"
-            style={{
-              borderRadius: "6px",
-              backgroundColor: "var(--chakra-colors-primary-background)",
-              padding: 5,
-              width: 35,
-              height: 35,
-            }}
-          />
-          W800BT PRO EDIFIER
-        </LinkButton>
         <LinkButton link={"https://www.vitordesenvolvedor.com.br/"}>
           <AiOutlineGlobal
             fill="var(--chakra-colors-primary)"
@@ -108,19 +78,31 @@ const Links = () => {
           />
           Solicite um orçamento
         </LinkButton>
-        <LinkButton link={"https://www.instagram.com/vitordesenvolvedor/"}>
-          <FaInstagram
+        <LinkButton link={"https://amzn.to/43v609P"}>
+          <FaMicrophone
             fill="var(--chakra-colors-primary)"
             style={{
               borderRadius: "6px",
-              borderColor: "var(--chakra-colors-primary)",
               backgroundColor: "var(--chakra-colors-primary-background)",
               padding: 5,
               width: 35,
               height: 35,
             }}
           />
-          Conheça o meu insta
+          MAONO PD100X
+        </LinkButton>
+        <LinkButton link={"https://amzn.to/4ky5jDr"}>
+          <FaHeadphones
+            fill="var(--chakra-colors-primary)"
+            style={{
+              borderRadius: "6px",
+              backgroundColor: "var(--chakra-colors-primary-background)",
+              padding: 5,
+              width: 35,
+              height: 35,
+            }}
+          />
+          W800BT PRO EDIFIER
         </LinkButton>
 
         {/* <Flex alignItems={"center"} gap={"0.8rem"}>
