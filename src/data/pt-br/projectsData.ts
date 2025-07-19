@@ -87,7 +87,7 @@ const projectsData = [
     customerTestimonialImg: DavidTestimonial,
     testimonialText: `Tem muita criatividade, algo que é de extrema importância para um desenvolvedor front-end. Destaco também a sua organização no código, na estrutura e organização de pacotes para que caso algum usuário com conhecimento (em programação) possa facilmente mudar algo que desejar.`,
     authorTestimonial: "David Alexandre, CEO da Bloodhunts Gaming",
-    pageUrl: "https://www.bloodhuntsgaming.com.br/",
+    pageUrl: "https://www.bloodhuntsgg.com.br/",
   },
   {
     id: 3,
