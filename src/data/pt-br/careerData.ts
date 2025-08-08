@@ -7,13 +7,11 @@ const careerData = [
     position: "Estágio em Desenvolvimento Web",
     companyName: "AVMB - Soluções em TI",
     workPeriod: "Mar 2022 - Dez 2023",
-    jobDescription: `Atuei na manutenção de portais e na criação de menus, utilizando a ferramenta de modelagem de processos da empresa. Fui responsável por treinar novos estagiários e desenvolver uma metodologia de treinamento, que incluía vídeoaulas rápidas e objetivas, além de exercícios que incentivavam a reflexão e a pesquisa de soluções, ensinando-os a utilizar a ferramenta de modelagem e reduzindo significativamente o tempo de aprendizado.
-
-Além disso, auxiliei no desenvolvimento de um aplicativo mobile que buscava trazer, de forma simplificada e ágil, as principais funcionalidades de uma plataforma já existente na web.
-
-Foi nesse ambiente que aprendi minhas primeiras tecnologias: Delphi 7, HTML, CSS, JavaScript, jQuery, Pure CSS, React, React Native, Lua, PostgreSQL e DB2.
-
-Aqui foi onde minha trajetória como programador iniciou, mesmo sem conhecimento prévio em programação, mas com um grande desafio: entregar resultados em menos de 3 meses. Após 1 ano, alcancei o nível máximo de estágio.`,
+    jobDescription: `- Reduzi significativamente o tempo de aprendizado de novos estagiários ao criar e implementar uma metodologia de treinamento com vídeoaulas objetivas e exercícios práticos, capacitando-os rapidamente no uso da ferramenta de modelagem de processos da empresa.
+- Treinei e mentorei novos estagiários, garantindo que atingissem rapidamente autonomia operacional e contribuíssem efetivamente para a manutenção de portais e criação de menus.
+- Contribuí para a simplificação do acesso às funcionalidades da plataforma web ao auxiliar no desenvolvimento de um aplicativo mobile ágil e intuitivo, ampliando o alcance dos usuários.
+- Adquiri conhecimentos práticos em diversas tecnologias, incluindo Delphi 7, HTML, CSS, JavaScript, jQuery, Pure CSS, React, React Native, Lua, PostgreSQL e DB2, construindo uma base sólida para a carreira de programador.
+- Alcancei o nível máximo de estágio em menos de um ano, superando o desafio inicial de entregar resultados sem experiência prévia em programação, demonstrando rápida evolução e compromisso.`,
     logoStyle: { width: 32, height: 32 },
   },
   {
@@ -22,11 +20,9 @@ Aqui foi onde minha trajetória como programador iniciou, mesmo sem conhecimento
     position: "Estágio em Desenvolvimento Front-End",
     companyName: "Techlise Soluções em TI",
     workPeriod: "Jan 2024 - Ago 2024",
-    jobDescription: `Desenvolvi telas para uma plataforma de médicos utilizando Next.js e Chakra UI, implementando formulários, agendas, sistema de pontos, listagens com funcionalidades de CRUD, entre outras. Implementei a mudança dinâmica de cores do tema, permitindo que o usuário selecionasse ou arrastasse uma cor no Color Picker para atualizar o sistema em tempo real.
-    
-Para gerenciar o estado global da aplicação, utilizei Redux, realizando também a integração com a API para manipulação de dados. Além disso, apliquei algumas dessas funcionalidades e design para o aplicativo mobile do sistema, garantindo uma experiência consistente em ambas as plataformas.
-
-Durante o desenvolvimento, para realizar a criação de um usuário de forma rápida, utilizei o Puppeteer para fazer o processo de entrada na plataforma, criação do usuário e, posteriormente, login com a conta criada de forma automatizada.`,
+    jobDescription: `- Desenvolvi interfaces para uma plataforma médica, acelerando o fluxo de trabalho com formulários, agendas, sistema de pontos e listagens CRUD, utilizando Next.js e Chakra UI; implementei um Color Picker dinâmico que atualiza o tema em tempo real.
+- Estabeleci um gerenciamento de estado eficiente com Redux e integração com API, garantindo sincronização de dados e design consistente entre web e mobile.
+- Automatizei o fluxo de criação e login de usuários com Puppeteer, reduzindo o tempo de execução de tarefas repetitivas.`,
   },
   {
     careerId: 2,
@@ -34,9 +30,11 @@ Durante o desenvolvimento, para realizar a criação de um usuário de forma rá
     position: "Desenvolvedor Front-End Trainee",
     companyName: "Techlise Soluções em TI",
     workPeriod: "Ago 2024 - Fev 2025",
-    jobDescription: `Desenvolvi telas para uma plataforma de gestão financeira de granja de suínos, utilizando Next.js e Chakra UI, implementando formulários, imagens com posicionamento absoluto, listagens com funcionalidades de CRUD, entre outras. Trabalhei na criação do componente de quadro Kanban utilizando dndkit, além de outros componentes, como tabelas simples e expansivas, sempre seguindo o protótipo do Figma.
-
-Desenvolvi também um app de chamadas utilizando o protocolo WebRTC e Socket para permitir a comunicação entre dois dispositivos. Para o envio de notificações sobre quem está recebendo a ligação, integrei a API do OneSignal, tornando essa funcionalidade possível.`,
+    jobDescription: `- Simplifiquei a gestão financeira de granjas de suínos ao criar telas responsivas com Next.js e Chakra UI, incluindo formulários otimizados, listagens CRUD e imagens com posicionamento absoluto, tornando o fluxo de trabalho mais ágil e intuitivo.
+- Otimizei a organização de tarefas ao desenvolver um quadro Kanban interativo com dndkit, consolidando dados em uma única visualização e garantindo aderência total ao protótipo do Figma.
+- Aprimorei a análise de informações com tabelas simples e expansivas, assegurando consistência visual e facilitando a interpretação dos dados.
+- Tornei possível a comunicação em tempo real entre dispositivos ao criar um aplicativo de chamadas utilizando WebRTC e Socket, garantindo estabilidade e baixa latência.
+- Melhorei a experiência do usuário ao integrar a API do OneSignal para envio de notificações push, permitindo avisar imediatamente quem estava recebendo a ligação.`,
   },
   {
     careerId: 3,
@@ -44,7 +42,10 @@ Desenvolvi também um app de chamadas utilizando o protocolo WebRTC e Socket par
     position: "Desenvolvedor Web Júnior",
     companyName: "Techlise Soluções em TI",
     workPeriod: "Mar 2025 - atual",
-    jobDescription: `Desenvolvi um sistema web para impressão de etiquetas no formato DataMatrix, atuando tanto no back-end, utilizando Node.js com Awilix para injeção de dependências, Sequelize como ORM, Redis para cache, modelando o banco de dados, criando a estrutura da API, aplicando migrations, entre outras tarefas, quanto no front-end, com Next.js e Chakra UI, desenvolvendo as telas previamente desenhadas no Figma e integrando a API.`,
+    jobDescription: `- Reduzi significativamente o tempo e erros na impressão de etiquetas DataMatrix ao desenvolver um sistema web completo, integrando backend com Node.js, Sequelize e Redis para alta performance e confiabilidade.
+- Garanti escalabilidade e integridade dos dados ao modelar o banco e aplicar migrations automatizadas com Sequelize, facilitando atualizações e manutenção contínua do sistema.
+- Aumentei a velocidade de acesso às informações críticas implementando cache com Redis, melhorando a performance e experiência do usuário.
+- Entreguei uma interface responsiva e alinhada ao design do Figma com Next.js e Chakra UI, proporcionando uma experiência intuitiva e consistente para os usuários, reduzindo o tempo de adaptação.`,
   },
 ];
 

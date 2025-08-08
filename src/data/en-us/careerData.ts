@@ -7,13 +7,11 @@ const careerData = [
     position: "Web Development Intern",
     companyName: "AVMB - Soluções em TI",
     workPeriod: "Mar 2022 - Dec 2023",
-    jobDescription: `I worked on maintaining portals and creating menus using the company's process modeling tool. I was responsible for training new interns and developing a training methodology that included short and objective video lessons, along with exercises that encouraged reflection and research on solutions, teaching them how to use the modeling tool and significantly reducing the learning time.
-
-Additionally, I helped in the development of a mobile app that aimed to bring, in a simplified and agile way, the main features of an already existing web platform.
-
-It was in this environment that I learned my first technologies: Delphi 7, HTML, CSS, JavaScript, jQuery, Pure CSS, React, React Native, Lua, PostgreSQL, and DB2.
-
-This is where my journey as a programmer began, even without prior knowledge of programming, but with a big challenge: delivering results in less than 3 months. After 1 year, I reached the maximum internship level.`,
+    jobDescription: `- Significantly reduced the learning time for new interns by creating and implementing a training methodology with concise video lessons and practical exercises, quickly enabling them to use the company's process modeling tool.
+- Trained and mentored new interns, ensuring they quickly gained operational autonomy and effectively contributed to portal maintenance and menu creation.
+- Contributed to simplifying access to web platform functionalities by assisting in the development of a fast and intuitive mobile app, expanding user reach.
+- Gained practical knowledge in various technologies including Delphi 7, HTML, CSS, JavaScript, jQuery, Pure CSS, React, React Native, Lua, PostgreSQL, and DB2, building a solid foundation for a programming career.
+- Achieved the highest internship level in less than a year, overcoming the initial challenge of delivering results without prior programming experience, demonstrating rapid growth and commitment.`,
     logoStyle: { width: 32, height: 32 },
   },
   {
@@ -22,29 +20,32 @@ This is where my journey as a programmer began, even without prior knowledge of 
     position: "Front-End Development Intern",
     companyName: "Techlise Soluções em TI",
     workPeriod: "Jan 2024 - Aug 2024",
-    jobDescription: `I developed screens for a doctors' platform using Next.js and Chakra UI, implementing forms, schedules, a points system, listings with CRUD functionalities, among others. I implemented dynamic color changes of the theme, allowing the user to select or drag a color in the Color Picker to update the system in real time.
-    
-To manage the global state of the application, I used Redux and also integrated it with the API for data manipulation. Additionally, I applied some of these features and designs to the mobile app of the system, ensuring a consistent experience on both platforms.
-
-During development, to quickly create a user, I used Puppeteer to automate the login process, user creation, and later login with the created account.`,
+    jobDescription: `- Developed interfaces for a medical platform, accelerating workflow with forms, schedules, point systems, and CRUD listings using Next.js and Chakra UI; implemented a dynamic Color Picker that updates the theme in real time.
+- Established efficient state management with Redux and API integration, ensuring data synchronization and consistent design between web and mobile.
+- Automated user creation and login flows with Puppeteer, reducing time spent on repetitive tasks.`,
   },
   {
     careerId: 2,
     companyLogo: TechliseLogo,
     position: "Front-End Developer Trainee",
     companyName: "Techlise Soluções em TI",
-    workPeriod: "Aug 2024 - present",
-    jobDescription: `I developed screens for a financial management platform for pig farming, using Next.js and Chakra UI, implementing forms, images with absolute positioning, listings with CRUD functionalities, among others. I worked on creating the Kanban board component using dndkit, as well as other components such as simple and expandable tables, always following the Figma prototype.
-
-I also developed a calling app using the WebRTC protocol and Socket to allow communication between two devices. For sending notifications about who is receiving the call, I integrated the OneSignal API, making this feature possible.`,
+    workPeriod: "Aug 2024 - Feb 2025",
+    jobDescription: `- Simplified financial management for pig farms by creating responsive screens with Next.js and Chakra UI, including optimized forms, CRUD listings, and absolutely positioned images, making workflows more agile and intuitive.
+- Optimized task organization by developing an interactive Kanban board with dndkit, consolidating data into a single view and ensuring full adherence to the Figma prototype.
+- Improved data analysis with simple and expandable tables, ensuring visual consistency and facilitating data interpretation.
+- Enabled real-time communication between devices by creating a calling app using WebRTC and Socket, ensuring stability and low latency.
+- Enhanced user experience by integrating the OneSignal API for push notifications, allowing immediate alerts to users receiving calls.`,
   },
   {
     careerId: 3,
     companyLogo: TechliseLogo,
     position: "Junior Web Developer",
     companyName: "Techlise Soluções em TI",
-    workPeriod: "Mar 2025 - present",
-    jobDescription: `Developed a web system for printing labels in the DataMatrix format, working on both the back end, using Node.js with Awilix for dependency injection, Sequelize as the ORM, and Redis for caching, modeling the database, creating the API structure, applying migrations, among other tasks, and the front end, with Next.js and Chakra UI, developing the screens previously designed in Figma and integrating the API.`,
+    workPeriod: "Mar 2025 - Present",
+    jobDescription: `- Significantly reduced time and errors in DataMatrix label printing by developing a complete web system integrating backend with Node.js, Sequelize, and Redis for high performance and reliability.
+- Ensured data scalability and integrity by modeling the database and applying automated migrations with Sequelize, facilitating continuous updates and maintenance.
+- Increased speed of access to critical information by implementing caching with Redis, improving system performance and user experience.
+- Delivered a responsive interface aligned with Figma designs using Next.js and Chakra UI, providing an intuitive and consistent experience that reduces adaptation time.`,
   },
 ];
 

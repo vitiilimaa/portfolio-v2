@@ -19,7 +19,7 @@ export default function RootLayout({
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "Front-End Developer - Vitor Batista",
+    title: "Software Developer - Vitor Batista",
     description:
       "Developer with experience, aiming to transform ideas that make a difference into lines of code, creating solutions that impact and improve people's lives.",
   };

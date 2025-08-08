@@ -57,15 +57,13 @@ const AboutMe = () => {
             </Flex>
             <MediumText fontWeight={400} textAlign={"justify"}>
               My name is Vitor, I am{" "}
-              <MediumText as="span">{yearsOld}</MediumText> years old, and I
-              have been working as a developer for{" "}
-              <MediumText as="span">{experienceYears}</MediumText> years,
-              creating modern and innovative experiences. I work with several
-              technologies, but I highlight Next, React, and TypeScript as my
-              preferences. I am always improving myself to grow in my career and
-              become a better professional. My goal is to transform ideas that
-              make a difference into lines of code, creating solutions that
-              impact and improve people&apos;s lives.
+              <MediumText as="span">{yearsOld}</MediumText> years old and have
+              been working as a developer for{" "}
+              <MediumText as="span">{experienceYears}</MediumText> years
+              building web and mobile applications within the JavaScript
+              ecosystem. I transform business challenges into high-performance
+              solutions, focusing on system optimization and process automation
+              to generate greater efficiency.
             </MediumText>
           </Flex>
 

@@ -39,7 +39,7 @@ const Links = () => {
       <Box textAlign={"center"}>
         <MediumText fontWeight={600}>Vitor Batista</MediumText>
         <Text fontSize={"14px"} opacity={0.5}>
-          Desenvolvedor Front-End
+          Desenvolvedor de Software
         </Text>
       </Box>
       <SocialMediaIcons

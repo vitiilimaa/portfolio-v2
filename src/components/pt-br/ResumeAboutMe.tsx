@@ -116,10 +116,10 @@ const ResumeAboutMe = () => {
                 width={textWidth}
               >
                 <Text as="span" display={{ base: "none", sm: "block" }}>
-                  Desenvolvedor Front-End
+                  Desenvolvedor de Software
                 </Text>
                 <Text as="span" display={{ base: "block", sm: "none" }}>
-                  Dev Frontend
+                  Desenvolvedor de Software
                 </Text>
               </ExtraLargeText>
             </MotionBox>
@@ -140,10 +140,10 @@ const ResumeAboutMe = () => {
               }}
             >
               <Text as="span" display={{ base: "none", sm: "block" }}>
-                Desenvolvedor Front-End
+                Desenvolvedor de Software
               </Text>
               <Text as="span" display={{ base: "block", sm: "none" }}>
-                Dev Frontend
+                Desenvolvedor de Software
               </Text>
             </ExtraLargeText>
           </Flex>
