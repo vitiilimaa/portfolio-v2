@@ -18,6 +18,7 @@ import {
   SiPostgresql,
   SiPostman,
 } from "react-icons/si";
+import { TbBrandCSharp } from "react-icons/tb";
 
 const technologiesData = [
   { name: "TypeScript", Icon: BiLogoTypescript },
@@ -37,6 +38,7 @@ const technologiesData = [
   { name: "MongoDB", Icon: SiMongodb },
   { name: "Postman", Icon: SiPostman },
   { name: "Figma", Icon: FaFigma },
+  { name: "C#", Icon: TbBrandCSharp },
 ];
 
 export default technologiesData;

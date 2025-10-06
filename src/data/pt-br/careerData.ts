@@ -41,7 +41,7 @@ const careerData = [
     companyLogo: TechliseLogo,
     position: "Desenvolvedor Web Júnior",
     companyName: "Techlise Soluções em TI",
-    workPeriod: "Mar 2025 - atual",
+    workPeriod: "Mar 2025 - Ago 2025",
     jobDescription: `- Reduzi significativamente o tempo e erros na impressão de etiquetas DataMatrix ao desenvolver um sistema web completo, integrando backend com Node.js, Sequelize e Redis para alta performance e confiabilidade.
 - Garanti escalabilidade e integridade dos dados ao modelar o banco e aplicar migrations automatizadas com Sequelize, facilitando atualizações e manutenção contínua do sistema.
 - Aumentei a velocidade de acesso às informações críticas implementando cache com Redis, melhorando a performance e experiência do usuário.
