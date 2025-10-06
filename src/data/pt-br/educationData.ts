@@ -6,7 +6,7 @@ const educationData = [
     universityLogo: UnicesumarLogo,
     course: "Superior em Análise e Desenvolvimento de Sistemas",
     universityName: "Unicesumar",
-    studyPeriod: "Out 2023 - Cursando",
+    studyPeriod: "Out 2023 - Nov 2025",
   },
 ];
 
