@@ -1,4 +1,4 @@
-import { TechliseLogo, AvmbLogo } from "@portfolio/assets";
+import { TechliseLogo, AvmbLogo, ForzaLogo } from "@portfolio/assets";
 
 const careerData = [
   {
@@ -46,6 +46,13 @@ const careerData = [
 - Ensured data scalability and integrity by modeling the database and applying automated migrations with Sequelize, facilitating continuous updates and maintenance.
 - Increased speed of access to critical information by implementing caching with Redis, improving system performance and user experience.
 - Delivered a responsive interface aligned with Figma designs using Next.js and Chakra UI, providing an intuitive and consistent experience that reduces adaptation time.`,
+  },
+  {
+    careerId: 4,
+    companyLogo: ForzaLogo,
+    position: "Mid Level Web Developer",
+    companyName: "Forza Clubes",
+    workPeriod: "Oct 2025 - Current",
   },
 ];
 

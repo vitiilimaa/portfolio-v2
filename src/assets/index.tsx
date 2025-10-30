@@ -10,6 +10,7 @@ import VitorDarkLogo from "@portfolio/assets/img/logos/vitor_dark_logo.svg";
 import VitorLightLogo from "@portfolio/assets/img/logos/vitor_light_logo.svg";
 import VLogoPart from "@portfolio/assets/img/logos/V_part_logo.webp";
 import ILGComexLogo from "@portfolio/assets/img/logos/ilg_comex_logo.webp";
+import ForzaLogo from "@portfolio/assets/img/logos/forza_logo.webp"
 
 import VitorPhoto from "@portfolio/assets/img/vitor_photo.webp";
 import BloodhuntsGaming from "@portfolio/assets/img/bloodhunts_gaming.webp";
@@ -63,4 +64,5 @@ export {
   MauricioTestimonial,
   AvatarInsta,
   ILGComexTestimonial,
+  ForzaLogo
 };

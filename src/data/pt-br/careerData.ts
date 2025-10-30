@@ -1,4 +1,4 @@
-import { TechliseLogo, AvmbLogo } from "@portfolio/assets";
+import { TechliseLogo, AvmbLogo, ForzaLogo } from "@portfolio/assets";
 
 const careerData = [
   {
@@ -46,6 +46,13 @@ const careerData = [
 - Garanti escalabilidade e integridade dos dados ao modelar o banco e aplicar migrations automatizadas com Sequelize, facilitando atualizações e manutenção contínua do sistema.
 - Aumentei a velocidade de acesso às informações críticas implementando cache com Redis, melhorando a performance e experiência do usuário.
 - Entreguei uma interface responsiva e alinhada ao design do Figma com Next.js e Chakra UI, proporcionando uma experiência intuitiva e consistente para os usuários, reduzindo o tempo de adaptação.`,
+  },
+    {
+    careerId: 4,
+    companyLogo: ForzaLogo,
+    position: "Desenvolvedor Web Pleno",
+    companyName: "Forza Clubes",
+    workPeriod: "Out 2025 - atual",
   },
 ];
 

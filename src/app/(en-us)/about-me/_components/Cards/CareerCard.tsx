@@ -64,25 +64,27 @@ const CareerCard = (props: CardRootProps) => {
                   columnGap={"15px"}
                 >
                   <Text>{career.position}</Text>
-                  <Collapsible.Trigger
-                    display={"flex"}
-                    alignItems={"center"}
-                    gap={1}
-                    color={"primary"}
-                    verticalAlign={"top"}
-                    height={"18px"}
-                    cursor={"pointer"}
-                    onClick={() =>
-                      handleClickShowActivitiesButton(career.careerId)
-                    }
-                    fontSize={"12px"}
-                    textWrap={"nowrap"}
-                  >
-                    <ActivitiesButton
-                      openedCollapsibleIds={openedCollapsibleIds}
-                      careerId={career.careerId}
-                    />
-                  </Collapsible.Trigger>
+                  {career.jobDescription && (
+                    <Collapsible.Trigger
+                      display={"flex"}
+                      alignItems={"center"}
+                      gap={1}
+                      color={"primary"}
+                      verticalAlign={"top"}
+                      height={"18px"}
+                      cursor={"pointer"}
+                      onClick={() =>
+                        handleClickShowActivitiesButton(career.careerId)
+                      }
+                      fontSize={"12px"}
+                      textWrap={"nowrap"}
+                    >
+                      <ActivitiesButton
+                        openedCollapsibleIds={openedCollapsibleIds}
+                        careerId={career.careerId}
+                      />
+                    </Collapsible.Trigger>
+                  )}
                 </Flex>
                 <Collapsible.Content
                   overflow={"initial"}
