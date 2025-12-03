@@ -72,6 +72,7 @@ const Header = () => {
       alignItems={"center"}
       justifyContent={"space-between"}
       zIndex={10}
+      pt={"30px"}
     >
       <Flex gap={"72px"} alignItems={"center"}>
         <ClientOnly fallback={<Skeleton width={"50px"} height={"50px"} />}>
