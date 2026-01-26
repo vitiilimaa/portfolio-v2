@@ -78,7 +78,7 @@ const Links = () => {
           />
           Solicite um orçamento
         </LinkButton>
-        <LinkButton link={"https://amzn.to/43v609P"}>
+        {/* <LinkButton link={"https://amzn.to/43v609P"}>
           <FaMicrophone
             fill="var(--chakra-colors-primary)"
             style={{
@@ -103,7 +103,7 @@ const Links = () => {
             }}
           />
           W800BT PRO EDIFIER
-        </LinkButton>
+        </LinkButton> */}
 
         {/* <Flex alignItems={"center"} gap={"0.8rem"}>
           <QRCodeSVG value="00020126580014br.gov.bcb.pix0136d3df1888-b814-46d0-9fd6-31b2294202cf5204000053039865802BR5925VITOR HUGO BATISTA DE LIM6009Sao Paulo62290525REC6848CF2C7590403226580663047697" />
