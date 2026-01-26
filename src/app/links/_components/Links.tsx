@@ -7,7 +7,7 @@ import { Box, ButtonProps, Flex, Text } from "@chakra-ui/react";
 import { ReactNode } from "react";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { MdAttachMoney } from "react-icons/md";
-import { FaHeadphones, FaMicrophone } from "react-icons/fa6";
+// import { FaHeadphones, FaMicrophone } from "react-icons/fa6";
 import { OutlineButton } from "@portfolio/components/Buttons";
 import { SocialMediaIcons } from "@portfolio/components/SocialMediaIcons";
 import MediumText from "@portfolio/components/Texts/MediumText";
