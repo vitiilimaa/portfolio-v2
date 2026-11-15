@@ -9,7 +9,6 @@ const coursesData = [
     courseLogo: OnebitcodeLogo,
     courseName: "Fullstack JavaScript Training",
     companyName: "OneBitCode",
-    file: "formacao_fullstack_js.pdf",
     logoStyle: onebitcodeIconStyle,
   },
   {
